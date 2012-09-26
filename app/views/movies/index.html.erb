@@ -1,0 +1,27 @@
+<div class="container">
+
+
+<div class="well well-large">
+  <%= form_tag movies_path, :method=> :get, :id => "movies_search" do %>
+      <h5>
+        Select All Movies of
+
+
+        <%= select("movie","language", Movie.all.map {|u| [u.language,u.language]}.uniq,{:prompt => 'Select Language'},{:name => "language"} )  %>
+
+
+
+        Language After
+        <%= select("movie","year",Movie.all.map {|u| [u.year,u.year]}.uniq,{:prompt => 'Select Year'},{:name => "year"})  %>
+        starring
+        <%= select("movie","actor1",Movie.all.map {|u| [u.actor1,u.actor1]}.uniq ,{:prompt => 'Select Actor'},{:name => "actor1"})  %>
+        and <%= select("movie","actor2",Movie.all.map {|u| [u.actor2,u.actor2]}.uniq,{:prompt => 'Select Actor'},{:name => "actor2"} )  %>
+      </h5>
+
+      <%= submit_tag "Search", :name=>nil, :hidden=> :true %>
+  <% end %>
+
+</div>
+    <div id="movies"><%= render 'movies' %></div>
+</div>
+

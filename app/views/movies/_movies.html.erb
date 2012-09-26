@@ -1,0 +1,13 @@
+    <ul class="thumbnails">
+        <% @movies.each do |movie| %>
+          <li class="span2">
+            <div class="hover-group thumbnail" align="center" >
+                <%= link_to image_tag(movie.poster_url(:movie_small_poster).to_s, :alt => movie.title), movie %>
+                <h5><%= link_to truncate(movie.title, :length => 17) ,movie %></h5>
+            </div>
+            <br><br>
+          </li>
+        <% end %>
+    </ul>
+    <%= will_paginate @movies %>
+

@@ -1,0 +1,17 @@
+
+heroku
+endless pagination
+add text search on top
+contact us
+png extension
+dropdown styling
+sharing buttons
+auto share on twitter and fb
+google analytics
+title
+meta tag in each page
+alt text on platform image
+alt text on movie image
+reduce file size of images
+make responsive for mobile
+add platform to search

@@ -1,0 +1,56 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Title:</b>
+  <%= @movie.title %>
+</p>
+
+<p>
+  <b>Year:</b>
+  <%= @movie.year %>
+</p>
+
+<p>
+  <b>Language:</b>
+  <%= @movie.language %>
+</p>
+
+<p>
+  <b>Image:</b>
+  <%= image_tag(@movie.poster_url(:movie_poster)) %>
+</p>
+
+<p>
+  <b>Actor1:</b>
+  <%= @movie.actor1 %>
+</p>
+
+<p>
+  <b>Actor2:</b>
+  <%= @movie.actor2 %>
+</p>
+
+<p>
+  <b>Director:</b>
+  <%= @movie.director %>
+</p>
+
+<p>
+  <b>Synopsis:</b>
+  <%= @movie.synopsis %>
+</p>
+
+
+<div class="container">
+    <ul class="thumbnails">
+        <% @movie.vods.each do |vod| %>
+          <li class="span2">
+            <div class="thumbnail" align="center" >
+                    <%= link_to image_tag(vod.platform.logo_url(:small).to_s, :alt => vod.platform.name), vod.movie_url,:target=>"_blank" %>
+                <h5><%= link_to truncate(vod.platform.name, :length => 20) ,vod.movie_url %></h5>
+            </div>
+            <br><br>
+          </li>
+        <% end %>
+    </ul>
+</div>
