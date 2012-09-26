@@ -16,6 +16,7 @@ alt text on movie image
 reduce file size of images
 make responsive for mobile
 add platform to search
+fix admin page data entry
 
 
 jQuery ->
