@@ -15,3 +15,13 @@ alt text on movie image
 reduce file size of images
 make responsive for mobile
 add platform to search
+
+
+jQuery ->
+  if $('.pagination').length
+    $(window).scroll ->
+      url = $('.pagination .next_page').attr('href')
+      if url && $(window).scrollTop() > $(document).height() - $(window).height() - 50
+        $('.pagination').text("Loading More Movies...")
+        $.getScript(url)
+    $(window).scroll()
