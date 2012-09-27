@@ -1,49 +1,18 @@
-<%= form_for(@movie) do |f| %>
-  <% if @movie.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(@movie.errors.count, "error") %> prohibited this movie from being saved:</h2>
+<%= form_tag movies_path, :method=> :get, :id => "movies_search" do %>
+    <h5>
+      Select All Movies of
 
-      <ul>
-      <% @movie.errors.full_messages.each do |msg| %>
-        <li><%= msg %></li>
-      <% end %>
-      </ul>
-    </div>
-  <% end %>
 
-  <div class="field">
-    <%= f.label :title %><br />
-    <%= f.text_field :title %>
-  </div>
-  <div class="field">
-    <%= f.label :year %><br />
-    <%= f.text_field :year %>
-  </div>
-  <div class="field">
-    <%= f.label :language %><br />
-    <%= f.text_field :language %>
-  </div>
-  <div class="field">
-    <%= f.label :image %><br />
-    <%= f.text_field :image %>
-  </div>
-  <div class="field">
-    <%= f.label :actor1 %><br />
-    <%= f.text_field :actor1 %>
-  </div>
-  <div class="field">
-    <%= f.label :actor2 %><br />
-    <%= f.text_field :actor2 %>
-  </div>
-  <div class="field">
-    <%= f.label :director %><br />
-    <%= f.text_field :director %>
-  </div>
-  <div class="field">
-    <%= f.label :synopsis %><br />
-    <%= f.text_field :synopsis %>
-  </div>
-  <div class="actions">
-    <%= f.submit %>
-  </div>
+      <%= select("movie","language", Movie.all.map {|u| [u.language,u.language]}.uniq,{:prompt => 'Select Language'},{:name => "language"} )  %>
+
+
+
+      Language After
+      <%= select("movie","year",Movie.all.map {|u| [u.year,u.year]}.uniq,{:prompt => 'Select Year'},{:name => "year"})  %>
+      starring
+      <%= select("movie","actor1",Movie.all.map {|u| [u.actor1,u.actor1]}.uniq ,{:prompt => 'Select Actor'},{:name => "actor1"})  %>
+      and <%= select("movie","actor2",Movie.all.map {|u| [u.actor2,u.actor2]}.uniq,{:prompt => 'Select Actor'},{:name => "actor2"} )  %>
+    </h5>
+
+    <%= submit_tag "Search", :name=>nil, :hidden=> :true %>
 <% end %>

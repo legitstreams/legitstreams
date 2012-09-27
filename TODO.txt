@@ -2,10 +2,12 @@
 heroku - Add Database Support in db config.
 
 endless pagination
+Sort year desc
 add text search on top
 contact us
 png extension
 dropdown styling
+Movie page styling - take pocket css.
 sharing buttons
 auto share on twitter and fb
 google analytics
