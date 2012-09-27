@@ -1,3 +1,6 @@
+<% provide(:title, 'Watch Indian Movies Online - '+ @movie.title) %>
+
+
 <p id="notice"><%= notice %></p>
 
 <p>
@@ -17,7 +20,7 @@
 
 <p>
   <b>Image:</b>
-  <%= image_tag(@movie.poster_url(:movie_poster)) %>
+  <%= image_tag(@movie.poster_url(:movie_poster),:title => @movie.title, :alt=> 'Watch ' + @movie.title + 'Online' ) %>
 </p>
 
 <p>
@@ -46,7 +49,7 @@
         <% @movie.vods.each do |vod| %>
           <li class="span2">
             <div class="thumbnail" align="center" >
-                    <%= link_to image_tag(vod.platform.logo_url(:small).to_s, :alt => vod.platform.name), vod.movie_url,:target=>"_blank" %>
+                    <%= link_to image_tag(vod.platform.logo_url(:small).to_s, :alt => 'Watch '+@movie.title+' on '+vod.platform.name, :title => 'Watch '+@movie.title+' on '+vod.platform.name), vod.movie_url,:target=>"_blank" %>
                 <h5><%= link_to truncate(vod.platform.name, :length => 20) ,vod.movie_url %></h5>
             </div>
             <br><br>

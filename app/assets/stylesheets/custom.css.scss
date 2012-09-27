@@ -1,26 +1,67 @@
 $bodyBackground:    #F1F1F1;
-$navbarHeight:      100px;
+$navbarHeight:      37px;
 $navbarBackground:  #E3E3E3;
-$navbarBorder:      1px solid #F0F0F0;
-$dropdownBackground:  #E3E3E3;
+//$navbarBorder:      1px solid #F0F0F0;
+//$dropdownBackground:  #E3E3E3;
 
 @import "bootstrap";
 @import "bootstrap-responsive";
 
-body { padding-top: 120px; }
+body { padding-top: 90px; }
 
-//
-//.content-body {
-//  background: none repeat scroll 0 0 #F1F1F1;
-//}
+.navbar .nav,
+.navbar .nav > li {
+  float:none;
+  display:inline-block;
+  *display:inline; /* ie7 fix */
+  *zoom:1; /* hasLayout ie7 trigger */
+  vertical-align: top;
+}
 
-//
-//.navbar {
-//    box-shadow: -5px 1px 8px 5px rgba(0, 0, 0, 0.06);
-//    left: 0;
-//    overflow: visible;
-//    text-align: center;
-//    top: 4px;
-//    width: 100%;
-//    z-index: 100;
-//}
+.navbar-inner {
+  text-align:center;
+  height: 57px;
+}
+
+h5{
+  font-family: "Lucida Sans Unicode" ;
+  letter-spacing: -1px;
+  word-spacing: 3px;
+  color: #222222;
+}
+
+ul.search_bar {
+list-style: none;
+margin: 20px 0 0 0;
+padding: 0;
+}
+/* all form DIVs have position property set to relative so we can easily position newly created SPAN */
+form div{position:relative;}
+
+/* setting the width and height of the SELECT element to match the replacing graphics */
+select.select{
+    position:relative;
+    z-index:10;
+    width:150px !important;
+    height:37px !important;
+    line-height:37px;
+    margin-right: 0.5em;
+
+}
+
+/* dynamically created SPAN, placed below the SELECT */
+span.select{
+    position:absolute;
+    bottom:20;
+    float:left;
+    left:0;
+    width:150px;
+    height: 37px;
+    line-height:37px;
+    text-indent:0px;
+    background: image-url('dropdown.png')  no-repeat scroll center center transparent;
+    cursor:default;
+    z-index:1;
+    color: #cb3a25;
+    text-align:center;
+}

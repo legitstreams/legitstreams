@@ -1,0 +1,44 @@
+Before Launch
+
+sharing buttons
+Movie page styling - take pocket css.
+contact us
+meta tag in each page
+fill data
+dropdown styling
+
+After Launch
+
+add text search on top
+google analytics
+endless pagination
+apply all other SEO tricks.
+png extension
+auto share on twitter and fb
+strip white space from image url
+reduce file size of images
+make responsive for mobile
+add platform to search
+fix admin page data entry
+sort language and actor by number of his name entries in the db
+
+jQuery ->
+  if $('.pagination').length
+    $(window).scroll ->
+      url = $('.pagination .next_page').attr('href')
+      if url && $(window).scrollTop() > $(document).height() - $(window).height() - 50
+        $('.pagination').text("Loading More Movies...")
+        $.getScript(url)
+    $(window).scroll()
+
+
+  <div id="addthis" class="pull-right">
+            <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+              <a class="addthis_button_preferred_1"></a>
+              <a class="addthis_button_preferred_2"></a>
+              <a class="addthis_button_preferred_3"></a>
+              <a class="addthis_button_preferred_4"></a>
+              <a class="addthis_button_compact"></a>
+              <a class="addthis_counter addthis_bubble_style"></a>
+            </div>
+          </div>

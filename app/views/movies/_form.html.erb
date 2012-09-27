@@ -1,18 +1,30 @@
 <%= form_tag movies_path, :method=> :get, :id => "movies_search" do %>
     <h5>
-      Select All Movies of
+      <strong>Showing all movies in</strong>
 
+      <div style="display: inline">
+      <%= select("movie","language", Movie.all.map {|u| [u.language,u.language]}.uniq,{:prompt=> "ANY LANGUAGE"},{:name => "language",:class=>"select", :title=>"ANY LANGUAGE"} )  %>
+      </div>
 
-      <%= select("movie","language", Movie.all.map {|u| [u.language,u.language]}.uniq,{:prompt => 'Select Language'},{:name => "language"} )  %>
+      <strong>after</strong>
 
+      <div style="display: inline">
+      <%= select("movie","year",Movie.order("year DESC").map {|u| [u.year,u.year]}.uniq,{:prompt=> "ANY YEAR"},{:name => "year",:class=>"select", :title=>"ANY YEAR"})  %>
+      </div>
 
+      <strong> starring</strong>
 
-      Language After
-      <%= select("movie","year",Movie.all.map {|u| [u.year,u.year]}.uniq,{:prompt => 'Select Year'},{:name => "year"})  %>
-      starring
-      <%= select("movie","actor1",Movie.all.map {|u| [u.actor1,u.actor1]}.uniq ,{:prompt => 'Select Actor'},{:name => "actor1"})  %>
-      and <%= select("movie","actor2",Movie.all.map {|u| [u.actor2,u.actor2]}.uniq,{:prompt => 'Select Actor'},{:name => "actor2"} )  %>
+      <div style="display: inline">
+      <%= select("movie","actor1",Movie.order("actor1 ASC").map {|u| [u.actor1,u.actor1]}.uniq ,{:prompt=> "ANY"},{:name => "actor1",:class=>"select", :title=>"ANY ACTOR"})  %>
+      </div>
+
+        <strong>and</strong>
+
+      <div style="display: inline">
+        <%= select("movie","actor2",Movie.order("actor2 ASC").map {|u| [u.actor2,u.actor2]}.uniq,{:prompt=> "ANY"},{:name => "actor2",:class=>"select", :title=>"ANY ACTOR"} )  %>
+      </div>
+
     </h5>
 
-    <%= submit_tag "Search", :name=>nil, :hidden=> :true %>
+    <!--<%= submit_tag "Search", :name=>nil, :hidden=> :true %>-->
 <% end %>
