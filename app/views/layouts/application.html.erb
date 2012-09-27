@@ -19,14 +19,36 @@
 <body>
 
 <header>
-  <div class="navbar">
-    <nav class="navbar-inner">
-      <div class="container">
-        <%= render 'layouts/navigation' %>
+  <div class="container">
+    <div class="row" style="text-align:center">
+      <div class="span6">
+        <div id="logo">
+          <%= link_to image_tag("moviekaka.png", :alt => "www.MovieKAKA.com"),root_path   %>
+        </div>
       </div>
-    </nav>
+      <div class="span3 offset3">
+        <div  id="addthis" >
+          <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+            <a class="addthis_button_preferred_1"></a>
+            <a class="addthis_button_preferred_2"></a>
+            <a class="addthis_button_preferred_3"></a>
+            <a class="addthis_button_preferred_4"></a>
+            <a class="addthis_button_compact"></a>
+            <a class="addthis_counter addthis_bubble_style"></a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </header>
+
+<div class="navbar">
+  <nav class="navbar-inner">
+    <div class="container">
+      <%= render 'layouts/navigation' %>
+    </div>
+  </nav>
+</div>
 
 <div id="main" role="main">
   <div class="container">
