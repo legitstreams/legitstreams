@@ -192,10 +192,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="logo_uploader.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="logo_uploader.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/uploaders/logo_uploader.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="52" selection-start="303" selection-end="303" vertical-scroll-proportion="0.2688928">
+            <state line="9" column="52" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -219,10 +219,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="movies_upload.rake" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="movies_upload.rake" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/tasks/movies_upload.rake">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="19" selection-start="561" selection-end="561" vertical-scroll-proportion="0.0">
+            <state line="15" column="0" selection-start="669" selection-end="669" vertical-scroll-proportion="0.4586331">
               <folding />
             </state>
           </provider>
@@ -263,12 +263,12 @@
         <option value="C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/bootstrap-sass-2.1.0.0/vendor/assets/stylesheets/bootstrap/_variables.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/lib/tasks/movies_upload.rake" />
         <option value="$PROJECT_DIR$/app/views/movies/_form.html.erb" />
         <option value="$PROJECT_DIR$/config/initializers/carrierwave.rb" />
         <option value="$PROJECT_DIR$/TODO" />
         <option value="$PROJECT_DIR$/app/uploaders/poster_uploader.rb" />
         <option value="$PROJECT_DIR$/app/uploaders/logo_uploader.rb" />
+        <option value="$PROJECT_DIR$/lib/tasks/movies_upload.rake" />
       </list>
     </option>
   </component>
@@ -442,6 +442,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LegitStreams" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LegitStreams" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LegitStreams" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LegitStreams" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1213,11 +1245,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/tasks/movies_upload.rake">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="19" selection-start="561" selection-end="561" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="dbDummy://dbElement:/7c2fe203/ed2a774c-8f81-4bf1-9f5b-2ade0340edcf/..movies">
       <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
         <state />
@@ -1237,7 +1264,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/uploaders/logo_uploader.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="52" selection-start="303" selection-end="303" vertical-scroll-proportion="0.2688928">
+        <state line="9" column="52" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/tasks/movies_upload.rake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="669" selection-end="669" vertical-scroll-proportion="0.4586331">
           <folding />
         </state>
       </provider>
