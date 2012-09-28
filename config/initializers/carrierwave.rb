@@ -11,9 +11,9 @@ CarrierWave.configure do |config|
          :google_storage_secret_access_key => 'wTQIyrQBxrfT6ua0aXykO/AfCE0+5HLkCaugb4/h'
        }
      if ENV['RAILS_ENV'] != 'production'
-        config.fog_directory = 'legitstreams'
+        config.fog_directory = 'developmenttest'
      else
-       config.fog_directory = 'developmenttest'
+       config.fog_directory = 'legitstreams'
       end
 
 end

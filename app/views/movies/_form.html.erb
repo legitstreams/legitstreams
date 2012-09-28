@@ -1,6 +1,6 @@
 <%= form_tag movies_path, :method=> :get, :id => "movies_search" do %>
     <h5>
-      <strong>Showing all movies in</strong>
+      <strong>I want to watch movies in</strong>
 
       <div style="display: inline">
       <%= select("movie","language", Movie.all.map {|u| [u.language,u.language]}.uniq,{:prompt=> "ANY LANGUAGE"},{:name => "language",:class=>"select", :title=>"ANY LANGUAGE"} )  %>

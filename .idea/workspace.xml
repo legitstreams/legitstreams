@@ -7,11 +7,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/dropdown.png" afterPath="$PROJECT_DIR$/app/assets/images/dropdown.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/moviekaka.png" afterPath="$PROJECT_DIR$/app/assets/images/moviekaka.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/rails.png" afterPath="$PROJECT_DIR$/app/assets/images/rails.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/mailers/.gitkeep" afterPath="$PROJECT_DIR$/app/mailers/.gitkeep" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/.gitkeep" afterPath="$PROJECT_DIR$/app/models/.gitkeep" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/assets/.gitkeep" afterPath="$PROJECT_DIR$/lib/assets/.gitkeep" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tasks/.gitkeep" afterPath="$PROJECT_DIR$/lib/tasks/.gitkeep" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/.gitkeep" afterPath="$PROJECT_DIR$/log/.gitkeep" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/favicon.ico" afterPath="$PROJECT_DIR$/public/favicon.ico" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascript/codebase/imgs/dataview/bottom.png" afterPath="$PROJECT_DIR$/public/javascript/codebase/imgs/dataview/bottom.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascript/codebase/imgs/dataview/dnd_selector.png" afterPath="$PROJECT_DIR$/public/javascript/codebase/imgs/dataview/dnd_selector.png" />
@@ -22,9 +17,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascript/codebase/imgs/dataview/sky_blue_grid.gif" afterPath="$PROJECT_DIR$/public/javascript/codebase/imgs/dataview/sky_blue_grid.gif" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/movies/images/000/000/001/original/gaj.jpg" afterPath="$PROJECT_DIR$/public/system/movies/images/000/000/001/original/gaj.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/movies/images/000/000/001/thumb/gaj.jpg" afterPath="$PROJECT_DIR$/public/system/movies/images/000/000/001/thumb/gaj.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/.gitkeep" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/.gitkeep" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/.gitkeep" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/.gitkeep" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/plugins/.gitkeep" afterPath="$PROJECT_DIR$/vendor/plugins/.gitkeep" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore.bak" afterPath="$PROJECT_DIR$/.gitignore.bak" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
@@ -68,6 +60,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/movies_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/movies_helper.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/platforms_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/platforms_helper.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/vods_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/vods_helper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/mailers/.gitkeep" afterPath="$PROJECT_DIR$/app/mailers/.gitkeep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/.gitkeep" afterPath="$PROJECT_DIR$/app/models/.gitkeep" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/admin_user.rb" afterPath="$PROJECT_DIR$/app/models/admin_user.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/movie.rb" afterPath="$PROJECT_DIR$/app/models/movie.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/platform.rb" afterPath="$PROJECT_DIR$/app/models/platform.rb" />
@@ -120,7 +114,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/README_FOR_APP" afterPath="$PROJECT_DIR$/doc/README_FOR_APP" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/assets/.gitkeep" afterPath="$PROJECT_DIR$/lib/assets/.gitkeep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tasks/.gitkeep" afterPath="$PROJECT_DIR$/lib/tasks/.gitkeep" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tasks/movies_upload.rake" afterPath="$PROJECT_DIR$/lib/tasks/movies_upload.rake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/.gitkeep" afterPath="$PROJECT_DIR$/log/.gitkeep" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/netflix.txt.bak" afterPath="$PROJECT_DIR$/netflix.txt.bak" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/netflix.txt" afterPath="$PROJECT_DIR$/netflix.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/404.html" afterPath="$PROJECT_DIR$/public/404.html" />
@@ -156,6 +153,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/platforms/new.html.erb_spec.rb" afterPath="$PROJECT_DIR$/spec/views/platforms/new.html.erb_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/vods/create.html.erb_spec.rb" afterPath="$PROJECT_DIR$/spec/views/vods/create.html.erb_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/vods/new.html.erb_spec.rb" afterPath="$PROJECT_DIR$/spec/views/vods/new.html.erb_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/.gitkeep" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/.gitkeep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/.gitkeep" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/.gitkeep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/plugins/.gitkeep" afterPath="$PROJECT_DIR$/vendor/plugins/.gitkeep" />
     </list>
     <ignored path="LegitStreams.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -181,28 +181,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_navbar.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/bootstrap-sass-2.1.0.0/vendor/assets/stylesheets/bootstrap/_navbar.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="0" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="custom.css.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/movies/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="26" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0">
+            <state line="2" column="29" selection-start="109" selection-end="109" vertical-scroll-proportion="-1.3076923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logo_uploader.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/uploaders/logo_uploader.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="17" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="poster_uploader.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/uploaders/poster_uploader.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="44" selection-start="605" selection-end="605" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -211,7 +211,7 @@
       <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="18" selection-start="1113" selection-end="1113" vertical-scroll-proportion="0.0">
+            <state line="31" column="18" selection-start="1113" selection-end="1113" vertical-scroll-proportion="-0.65384614">
               <folding />
             </state>
           </provider>
@@ -226,16 +226,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="carrierwave.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="carrierwave.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/initializers/carrierwave.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="6" selection-start="678" selection-end="678" vertical-scroll-proportion="0.0">
+            <state line="16" column="36" selection-start="681" selection-end="681" vertical-scroll-proportion="0.7705383">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="..movies" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="..movies" pinned="false" current="false" current-in-tab="false">
         <entry file="dbDummy://dbElement:/7c2fe203/ed2a774c-8f81-4bf1-9f5b-2ade0340edcf/..movies">
           <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
             <state />
@@ -293,11 +293,11 @@
         <option value="$PROJECT_DIR$/app/views/movies/_movies.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/bootstrap-sass-2.1.0.0/vendor/assets/stylesheets/bootstrap/_variables.scss" />
-        <option value="$PROJECT_DIR$/app/views/movies/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/lib/tasks/movies_upload.rake" />
         <option value="$PROJECT_DIR$/TODO" />
+        <option value="$PROJECT_DIR$/app/views/movies/_form.html.erb" />
         <option value="$PROJECT_DIR$/config/initializers/carrierwave.rb" />
       </list>
     </option>
@@ -356,6 +356,70 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="LegitStreams" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LegitStreams" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LegitStreams" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LegitStreams" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LegitStreams" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LegitStreams" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LegitStreams" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LegitStreams" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LegitStreams" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="uploaders" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -957,9 +1021,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32996634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32996634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16312595" sideWeight="0.6700337" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1036,21 +1100,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/bootstrap-sass-2.1.0.0/vendor/assets/stylesheets/bootstrap/_grid.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="18" selection-start="99" selection-end="108" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/bootstrap-sass-2.1.0.0/vendor/assets/stylesheets/_bootstrap-responsive.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="30" selection-start="813" selection-end="813" vertical-scroll-proportion="0.37564766" />
-      </provider>
-    </entry>
-    <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/bootstrap-sass-2.1.0.0/vendor/assets/stylesheets/bootstrap/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="17" selection-start="1450" selection-end="1450" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/bootstrap-sass-2.1.0.0/vendor/assets/stylesheets/bootstrap/_mixins.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="555" column="5" selection-start="18791" selection-end="18791" vertical-scroll-proportion="0.0" />
@@ -1074,18 +1123,6 @@
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="0" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/movies/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="26" selection-start="125" selection-end="125" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="18" selection-start="1113" selection-end="1113" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/movies/_movies.html.erb">
@@ -1112,16 +1149,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/carrierwave.rb">
+    <entry file="dbDummy://dbElement:/7c2fe203/ed2a774c-8f81-4bf1-9f5b-2ade0340edcf/..movies">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="6" selection-start="678" selection-end="678" vertical-scroll-proportion="0.0">
+        <state line="31" column="18" selection-start="1113" selection-end="1113" vertical-scroll-proportion="-0.65384614">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://dbElement:/7c2fe203/ed2a774c-8f81-4bf1-9f5b-2ade0340edcf/..movies">
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-        <state />
+    <entry file="file://$PROJECT_DIR$/vendor/plugins/.gitkeep">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/movies/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="29" selection-start="109" selection-end="109" vertical-scroll-proportion="-1.3076923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/uploaders/logo_uploader.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="17" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/uploaders/poster_uploader.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="44" selection-start="605" selection-end="605" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/carrierwave.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="36" selection-start="681" selection-end="681" vertical-scroll-proportion="0.7705383">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
