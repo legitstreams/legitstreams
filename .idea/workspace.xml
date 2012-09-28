@@ -199,10 +199,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="poster_uploader.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="poster_uploader.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/uploaders/poster_uploader.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="44" selection-start="605" selection-end="605" vertical-scroll-proportion="0.0">
+            <state line="9" column="0" selection-start="261" selection-end="261" vertical-scroll-proportion="0.45">
               <folding />
             </state>
           </provider>
@@ -226,10 +226,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="carrierwave.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="carrierwave.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/initializers/carrierwave.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="36" selection-start="681" selection-end="681" vertical-scroll-proportion="0.7705383">
+            <state line="14" column="50" selection-start="626" selection-end="626" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -1182,16 +1182,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/uploaders/poster_uploader.rb">
+    <entry file="file://$PROJECT_DIR$/config/initializers/carrierwave.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="44" selection-start="605" selection-end="605" vertical-scroll-proportion="0.0">
+        <state line="14" column="50" selection-start="626" selection-end="626" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/carrierwave.rb">
+    <entry file="file://$PROJECT_DIR$/app/uploaders/poster_uploader.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="36" selection-start="681" selection-end="681" vertical-scroll-proportion="0.7705383">
+        <state line="9" column="0" selection-start="261" selection-end="261" vertical-scroll-proportion="0.45">
           <folding />
         </state>
       </provider>
