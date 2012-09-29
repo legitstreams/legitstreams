@@ -9,7 +9,7 @@ task :import_movies => :environment do
   end
 end
 
-task :recreate_verions => :environment do
+task :recreate_versions => :environment do
     Movie.all.each do |movie|
       movie.poster.recreate_versions!
     end
