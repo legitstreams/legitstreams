@@ -34,6 +34,7 @@ group :assets do
   gem 'coffee-rails', '3.2.2'
   gem 'uglifier'
   gem 'bootstrap-sass'
+  gem 'yui-compressor'
 end
 
 

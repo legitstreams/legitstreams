@@ -61,5 +61,10 @@ module LegitStreams
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+
+    config.assets.js_compressor = :uglifier
+
+    config.assets.css_compressor = :yui
+
   end
 end

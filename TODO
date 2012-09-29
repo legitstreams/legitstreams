@@ -1,6 +1,5 @@
 Before Launch
 
-sharing buttons
 Movie page styling - take pocket css.
 contact us
 meta tag in each page
@@ -8,6 +7,7 @@ fill data
 
 
 After Launch
+optimize sharing buttons for better load and position
 fix dropdown styling
 movie actor field to include all actors.
 url for model name has gibbrish characters.
