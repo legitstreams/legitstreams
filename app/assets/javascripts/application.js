@@ -17,6 +17,16 @@
 
 $(function() {
 
+
+
+//    Select box ajax search
+
+    $("#movies_search select").change(function() {
+        $.get($("#movies_search").attr("action"), $("#movies_search").serialize(), null, "script");
+        return false;
+    });
+
+
     $("#movies .pagination a").live("click", function() {
       $.getScript(this.href);
       return false;
@@ -27,28 +37,25 @@ $(function() {
         return false;
     });
 
-    $("#movies_search select").change(function() {
-      $.get($("#movies_search").attr("action"), $("#movies_search").serialize(), null, "script");
-      return false;
-    });
-});
-
-$(document).ready(function(){
+// Select Box Styling ... This needs to change to a better select box.
 
     if (!$.browser.opera) {
 
-        $('select.select').each(function(){
-            var title = $(this).attr('title');
-            if( $('option:selected', this).val() != ''  ) title = $('option:selected',this).text();
-            $(this)
-                .css({'z-index':10,'opacity':0,'-khtml-appearance':'none'})
-                .after('<span class="select">' + title + '</span>')
-                .change(function(){
-                    val = $('option:selected',this).text();
-                    $(this).next().text(val);
-                    })
-        });
+           $('select.select').each(function(){
+               var title = $(this).attr('title');
+               if( $('option:selected', this).val() != ''  ) title = $('option:selected',this).text();
+               $(this)
+                   .css({'z-index':10,'opacity':0,'-khtml-appearance':'none'})
+                   .after('<span class="select">' + title + '</span>')
+                   .change(function(){
+                       val = $('option:selected',this).text();
+                       $(this).next().text(val);
+                       })
+           });
 
-    };
+       };
+
+
+
 
 });

@@ -3,57 +3,46 @@
 
 <p id="notice"><%= notice %></p>
 
-<p>
-  <b>Title:</b>
-  <%= @movie.title %>
-</p>
+<div class="row-fluid" id="movie_page">
 
-<p>
-  <b>Year:</b>
-  <%= @movie.year %>
-</p>
+  <div class="span3" id="poster_image" style="text-align:center">
+    <%= image_tag(@movie.poster_url(:movie_poster),:title => @movie.title, :alt=> 'Watch ' + @movie.title + 'Online', :class=>"img-polaroid" ) %>
+  </div>
 
-<p>
-  <b>Language:</b>
-  <%= @movie.language %>
-</p>
+  <div class="span8 offset1">
+    <div class="row" id="movie_title">
 
-<p>
-  <b>Image:</b>
-  <%= image_tag(@movie.poster_url(:movie_poster),:title => @movie.title, :alt=> 'Watch ' + @movie.title + 'Online' ) %>
-</p>
+      <h4><%= "#{@movie.title} ( #{@movie.year} ) , #{@movie.language} " %></h4>
 
-<p>
-  <b>Actor1:</b>
-  <%= @movie.actor1 %>
-</p>
+    </div>
 
-<p>
-  <b>Actor2:</b>
-  <%= @movie.actor2 %>
-</p>
+    <div class="row" id="movie_info" style="text-align: justify">
+      <p>
+        <b>Synopsis:</b>
+        <%= @movie.synopsis %>
+      </p>
+    </div>
 
-<p>
-  <b>Director:</b>
-  <%= @movie.director %>
-</p>
+    <div class="row" id="platforms">
+      <div class="container">
+        <p>
+        <h5>Watch On</h5>
+        <p>
 
-<p>
-  <b>Synopsis:</b>
-  <%= @movie.synopsis %>
-</p>
+      </div>
 
-
-<div class="container">
-    <ul class="thumbnails">
+      <ul class="thumbnails">
         <% @movie.vods.each do |vod| %>
-          <li class="span2">
-            <div class="thumbnail" align="center" >
-                    <%= link_to image_tag(vod.platform.logo_url(:small).to_s, :alt => 'Watch '+@movie.title+' on '+vod.platform.name, :title => 'Watch '+@movie.title+' on '+vod.platform.name), vod.movie_url,:target=>"_blank" %>
+            <li class="span2">
+              <div class="thumbnail" align="center" style="border: none" >
+                <%= link_to image_tag(vod.platform.logo_url(:small).to_s, :alt => 'Watch '+@movie.title+' on '+vod.platform.name, :title => 'Watch '+@movie.title+' on '+vod.platform.name,:class=>"img-rounded" ), vod.movie_url,:target=>"_blank" %>
                 <h5><%= link_to truncate(vod.platform.name, :length => 20) ,vod.movie_url %></h5>
-            </div>
-            <br><br>
-          </li>
+              </div>
+              <br><br>
+            </li>
         <% end %>
-    </ul>
+      </ul>
+    </div>
+  </div>
+
 </div>
