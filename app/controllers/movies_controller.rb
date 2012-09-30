@@ -12,7 +12,7 @@ class MoviesController < ApplicationController
     @movies = apply_scopes(Movie).order("year DESC").paginate(:per_page => 24, :page => params[:page])
     #@movies = Movie.search(params[:movie]).order(sort_column + " " + sort_direction)
 
-  end
+end
 
   # GET /movies/1
   # GET /movies/1.json
