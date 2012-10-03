@@ -16,26 +16,42 @@
 //= require_tree .
 
 $(function() {
-
-
-
 //    Select box ajax search
+    $.ajaxSettings.accepts.html = $.ajaxSettings.accepts.script;
+
 
     $("#movies_search select").change(function() {
-        $.get($("#movies_search").attr("action"), $("#movies_search").serialize(), null, "script");
+        $.get($("#movies_search").attr("action"), $("#movies_search").serialize(), function(data){
+            $('#movies').html(data);
+        }, "html");
         return false;
     });
-
 
     $("#movies .pagination a").live("click", function() {
       $.getScript(this.href);
       return false;
     });
 
+
+
     $("#movies_search").submit(function(){
         $.get(this.action,$(this).serialize(),null,"script");
         return false;
     });
+
+  if ($('.pagination').length){
+    $(window).scroll (function(){
+      url = $('.pagination .next_page').attr('href')
+      if (url && $(window).scrollTop() > $(document).height() - $(window).height() - 50)
+      {$('.pagination').text("Loading More Movies...")
+        $.get(url, function(data){
+                                $('#movies').append(data);
+                              },"html")
+        $('.pagination').first().remove();
+        $(window).scroll()
+      }
+    });
+  };
 
 // Select Box Styling ... This needs to change to a better select box.
 

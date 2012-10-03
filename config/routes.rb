@@ -1,5 +1,9 @@
 LegitStreams::Application.routes.draw do
 
+  get "actor/create"
+
+  get "actor/view"
+
   ActiveAdmin.routes(self)
 
   devise_for :admin_users, ActiveAdmin::Devise.config

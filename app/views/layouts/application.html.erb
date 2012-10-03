@@ -24,7 +24,7 @@
           <%= link_to image_tag("moviekaka.png", :alt => "www.MovieKAKA.com"),root_path   %>
         </div>
       </div>
-      <div class="span3 offset3">
+      <div class="span2 offset2">
         <div  id="addthis" >
           <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
             <a class="addthis_button_facebook"></a>
@@ -34,6 +34,10 @@
           </div>
         </div>
       </div>
+      <div class="span2">
+        <a href="#contact" role="button" class="btn btn-primary" data-toggle="modal" >Contact Us</a>
+      </div>
+
     </div>
   </div>
 </header>
@@ -63,6 +67,8 @@
 </div> <!--! end of #main -->
 <%= render 'layouts/addons' %>
 <%= render 'layouts/analytics' if Rails.env == 'production' %>
+<%= render 'layouts/contact' %>
+
 </body>
 </html>
 

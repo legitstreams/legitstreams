@@ -6,8 +6,8 @@ ActiveAdmin.register Movie do
       end
       column "Year", :year
       column "Language", :language
-      column "Actor-1", :actor1
-      column "Actor-2", :actor2
+      #column "Actor-1", :actor1
+      #column "Actor-2", :actor2
       column "Poster Image" do |movie|
            image_tag(movie.poster_url(:thumb))
       end
@@ -20,13 +20,21 @@ ActiveAdmin.register Movie do
       row :title
       row :year
       row :language
-      row :actor1
-      row :actor2
+      #row :actor1
+      #row :actor2
       row :director
       row :poster do
           image_tag(movie.poster_url(:movie_poster))
       end
       row :synopsis
+    end
+
+    panel "Starring Actors" do
+      table_for movie.actors do
+        column "Actor Name" do |actor|
+          actor.name
+        end
+      end
     end
 
     panel "Now Plalying At" do
@@ -49,14 +57,22 @@ ActiveAdmin.register Movie do
           f.input :title
           f.input :year
           f.input :language
-          f.input :actor1
-          f.input :actor2
+          #f.input :actor1
+          #f.input :actor2
           f.input :director
           f.input :synopsis, :as => :text
           f.input :poster, :as => :file, :label => "Movie Poster" , :label => "Image"
           f.input :remote_poster_url, :label => "OR URL TO Poster Image"
       end
 
+          f.has_many :actors do |a|
+              f.inputs "ACTORS" do
+                  if !a.object.nil?
+                    a.input :_destroy, :as => :boolean, :label => "Destroy?"
+                  end
+                  a.input :name
+              end
+           end
 
 
     f.has_many :vods do |p|

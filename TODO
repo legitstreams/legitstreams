@@ -4,8 +4,8 @@ endless pagination
 contact us
 fill data
 
-
 After Launch
+---------------------------
 optimize sharing buttons for better load and position
 fix dropdown styling
 meta tag in each page
@@ -43,3 +43,5 @@ jQuery ->
               <a class="addthis_counter addthis_bubble_style"></a>
             </div>
           </div>
+
+          format.html

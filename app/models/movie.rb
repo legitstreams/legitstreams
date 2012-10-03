@@ -19,7 +19,7 @@ class Movie < ActiveRecord::Base
   extend FriendlyId
     friendly_id :title, use: [:slugged, :history]
 
-  attr_accessible :title, :year, :poster,  :language, :actor1, :actor2, :director, :synopsis, :vods_attributes, :remote_poster_url
+  attr_accessible :title, :year, :poster,  :language, :actor1, :actor2, :director, :synopsis, :vods_attributes, :actors_attributes, :remote_poster_url
 
   scope :language, lambda {|language| where(:language => language) }
   scope :actor1, lambda { |actor1| where(:actor1 => actor1) }
@@ -28,7 +28,10 @@ class Movie < ActiveRecord::Base
 
   has_many :vods, dependent: :destroy
   has_many :platforms, :through => :vods
+  has_many :actors, dependent: :destroy
+
   accepts_nested_attributes_for :vods, allow_destroy: true
+  accepts_nested_attributes_for :actors, allow_destroy: true
 
   mount_uploader :poster, PosterUploader
 
