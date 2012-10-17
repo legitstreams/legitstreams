@@ -1,8 +1,6 @@
 LegitStreams::Application.routes.draw do
 
-  get "actor/create"
 
-  get "actor/view"
 
   ActiveAdmin.routes(self)
 
@@ -16,6 +14,10 @@ LegitStreams::Application.routes.draw do
   get "platforms/new"
 
   get "platforms/create"
+
+  get "actor/create"
+
+  get "actor/view"
 
   resources :movies
   root :to => "movies#index"

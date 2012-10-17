@@ -46,7 +46,7 @@ ActiveAdmin.register Movie do
       end
     end
 
-   debug(params) if Rails.env.development?
+    debug(params) if Rails.env.development?
 
 
   end
@@ -54,16 +54,16 @@ ActiveAdmin.register Movie do
 
   form  :html => { :multipart => true } do |f|
           f.inputs "Movies" do
-          f.input :title
-          f.input :year
-          f.input :language
-          #f.input :actor1
-          #f.input :actor2
-          f.input :director
-          f.input :synopsis, :as => :text
-          f.input :poster, :as => :file, :label => "Movie Poster" , :label => "Image"
-          f.input :remote_poster_url, :label => "OR URL TO Poster Image"
-      end
+              f.input :title
+              f.input :year
+              f.input :language
+              #f.input :actor1
+              #f.input :actor2
+              f.input :director
+              f.input :synopsis, :as => :text
+              f.input :poster, :as => :file, :label => "Movie Poster" , :label => "Image"
+              f.input :remote_poster_url, :label => "OR URL TO Poster Image"
+          end
 
           f.has_many :actors do |a|
               f.inputs "ACTORS" do
@@ -72,7 +72,7 @@ ActiveAdmin.register Movie do
                   end
                   a.input :name
               end
-           end
+          end
 
 
     f.has_many :vods do |p|
@@ -83,7 +83,7 @@ ActiveAdmin.register Movie do
             p.input :movie_url
             p.input :platform
         end
-     end
+    end
 
     f.buttons
 

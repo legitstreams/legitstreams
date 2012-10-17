@@ -19,19 +19,23 @@ class Movie < ActiveRecord::Base
   extend FriendlyId
     friendly_id :title, use: [:slugged, :history]
 
-  attr_accessible :title, :year, :poster,  :language, :actor1, :actor2, :director, :synopsis, :vods_attributes, :actors_attributes, :remote_poster_url
-
-  scope :language, lambda {|language| where(:language => language) }
-  scope :actor1, lambda { |actor1| where(:actor1 => actor1) }
-  scope :actor2, lambda { |actor2| where(:actor2 => actor2) }
-  scope :year, lambda { |year| where("year >=  ?", year) }
-
   has_many :vods, dependent: :destroy
   has_many :platforms, :through => :vods
-  has_many :actors, dependent: :destroy
+  has_many :actors , dependent: :destroy
 
   accepts_nested_attributes_for :vods, allow_destroy: true
   accepts_nested_attributes_for :actors, allow_destroy: true
+
+  attr_accessible :title, :year, :poster,  :language, :actor1, :actor2, :director, :synopsis, :vods_attributes, :actors_attributes, :remote_poster_url
+
+  scope :language, lambda {|language| where(:language => language) }
+  scope :actor_1, lambda { |actor_1| joins("INNER JOIN actors as a1 ON movies.id = a1.movie_id").where( 'a1.name=?', actor_1) }
+  scope :actor_2, lambda { |actor_2| joins("INNER JOIN actors as a2 ON movies.id = a2.movie_id").where( 'a2.name=?', actor_2) }
+  scope :year, lambda { |year| where("year >=  ?", year) }
+
+
+
+
 
   mount_uploader :poster, PosterUploader
 

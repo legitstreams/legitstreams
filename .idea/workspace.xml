@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c151a0c-5fc3-44f0-bd4d-ea4af0e3a034" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/_contact.html.erb" />
-      <change type="DELETED" beforePath="C:\Users\Vivek\RubymineProjects\LegitStreams\app\views\movies\index.js.erb" afterPath="" />
+    <list default="true" id="4c151a0c-5fc3-44f0-bd4d-ea4af0e3a034" name="Default" comment="Add Contact and Changed Application JS to make search and pagination work">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/LegitStreams.iml" afterPath="$PROJECT_DIR$/.idea/LegitStreams.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/dropdown.png" afterPath="$PROJECT_DIR$/app/assets/images/dropdown.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/moviekaka.png" afterPath="$PROJECT_DIR$/app/assets/images/moviekaka.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/rails.png" afterPath="$PROJECT_DIR$/app/assets/images/rails.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/README_FOR_APP" afterPath="$PROJECT_DIR$/doc/README_FOR_APP" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/netflix2.txt.bak" afterPath="$PROJECT_DIR$/netflix2.txt.bak" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/favicon.ico" afterPath="$PROJECT_DIR$/public/favicon.ico" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascript/codebase/imgs/dataview/bottom.png" afterPath="$PROJECT_DIR$/public/javascript/codebase/imgs/dataview/bottom.png" />
@@ -21,10 +24,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/movies/images/000/000/001/thumb/gaj.jpg" afterPath="$PROJECT_DIR$/public/system/movies/images/000/000/001/thumb/gaj.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore.bak" afterPath="$PROJECT_DIR$/.gitignore.bak" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/LegitStreams.iml" afterPath="$PROJECT_DIR$/.idea/LegitStreams.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
@@ -37,42 +36,51 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.rdoc" afterPath="$PROJECT_DIR$/README.rdoc" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rakefile" afterPath="$PROJECT_DIR$/Rakefile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TODO" afterPath="$PROJECT_DIR$/TODO" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/actors.rb" afterPath="$PROJECT_DIR$/app/admin/actors.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/admin_user.rb" afterPath="$PROJECT_DIR$/app/admin/admin_user.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/dashboard.rb" afterPath="$PROJECT_DIR$/app/admin/dashboard.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/movies.rb" afterPath="$PROJECT_DIR$/app/admin/movies.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/platforms.rb" afterPath="$PROJECT_DIR$/app/admin/platforms.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/vods.rb" afterPath="$PROJECT_DIR$/app/admin/vods.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/active_admin.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/active_admin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/actor.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/actor.js.coffee" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/movies.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/movies.js.coffee" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/platforms.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/platforms.js.coffee" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/vods.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/vods.js.coffee" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/active_admin.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/active_admin.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/actor.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/actor.css.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/movies.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/movies.css.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/platforms.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/platforms.css.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.css.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/vods.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/vods.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/actor_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/actor_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/movies_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/movies_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/platforms_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/platforms_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/vods_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/vods_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/actor_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/actor_helper.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/movies_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/movies_helper.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/platforms_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/platforms_helper.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/vods_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/vods_helper.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/mailers/.gitkeep" afterPath="$PROJECT_DIR$/app/mailers/.gitkeep" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/.gitkeep" afterPath="$PROJECT_DIR$/app/models/.gitkeep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/actor.rb" afterPath="$PROJECT_DIR$/app/models/actor.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/admin_user.rb" afterPath="$PROJECT_DIR$/app/models/admin_user.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/movie.rb" afterPath="$PROJECT_DIR$/app/models/movie.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/platform.rb" afterPath="$PROJECT_DIR$/app/models/platform.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/vod.rb" afterPath="$PROJECT_DIR$/app/models/vod.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/uploaders/logo_uploader.rb" afterPath="$PROJECT_DIR$/app/uploaders/logo_uploader.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/uploaders/poster_uploader.rb" afterPath="$PROJECT_DIR$/app/uploaders/poster_uploader.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/actor/create.html.erb" afterPath="$PROJECT_DIR$/app/views/actor/create.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/actor/view.html.erb" afterPath="$PROJECT_DIR$/app/views/actor/view.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/movies/_vods.html.erb" afterPath="$PROJECT_DIR$/app/views/admin/movies/_vods.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_addons.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_addons.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_analytics.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_analytics.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_contact.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_contact.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_messages.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_messages.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
@@ -114,9 +122,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20120923190116_add_poster_to_movies.rb" afterPath="$PROJECT_DIR$/db/migrate/20120923190116_add_poster_to_movies.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20120924093821_add_slug_to_movies.rb" afterPath="$PROJECT_DIR$/db/migrate/20120924093821_add_slug_to_movies.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20120924094359_create_friendly_id_slugs.rb" afterPath="$PROJECT_DIR$/db/migrate/20120924094359_create_friendly_id_slugs.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20120930175049_create_actors.rb" afterPath="$PROJECT_DIR$/db/migrate/20120930175049_create_actors.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/README_FOR_APP" afterPath="$PROJECT_DIR$/doc/README_FOR_APP" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/assets/.gitkeep" afterPath="$PROJECT_DIR$/lib/assets/.gitkeep" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tasks/.gitkeep" afterPath="$PROJECT_DIR$/lib/tasks/.gitkeep" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tasks/movies_upload.rake" afterPath="$PROJECT_DIR$/lib/tasks/movies_upload.rake" />
@@ -137,18 +145,23 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascript/codebase/types/ftypes.js" afterPath="$PROJECT_DIR$/public/javascript/codebase/types/ftypes.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/robots.txt" afterPath="$PROJECT_DIR$/public/robots.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script/rails" afterPath="$PROJECT_DIR$/script/rails" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/actor_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/actor_controller_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/movies_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/movies_controller_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/platforms_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/platforms_controller_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/vods_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/vods_controller_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/helpers/actor_helper_spec.rb" afterPath="$PROJECT_DIR$/spec/helpers/actor_helper_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/helpers/movies_helper_spec.rb" afterPath="$PROJECT_DIR$/spec/helpers/movies_helper_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/helpers/platforms_helper_spec.rb" afterPath="$PROJECT_DIR$/spec/helpers/platforms_helper_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/helpers/vods_helper_spec.rb" afterPath="$PROJECT_DIR$/spec/helpers/vods_helper_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/actor_spec.rb" afterPath="$PROJECT_DIR$/spec/models/actor_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/admin_user_spec.rb" afterPath="$PROJECT_DIR$/spec/models/admin_user_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/movie_spec.rb" afterPath="$PROJECT_DIR$/spec/models/movie_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/platform_spec.rb" afterPath="$PROJECT_DIR$/spec/models/platform_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/vod_spec.rb" afterPath="$PROJECT_DIR$/spec/models/vod_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/requests/movies_spec.rb" afterPath="$PROJECT_DIR$/spec/requests/movies_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/routing/movies_routing_spec.rb" afterPath="$PROJECT_DIR$/spec/routing/movies_routing_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/actor/create.html.erb_spec.rb" afterPath="$PROJECT_DIR$/spec/views/actor/create.html.erb_spec.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/actor/view.html.erb_spec.rb" afterPath="$PROJECT_DIR$/spec/views/actor/view.html.erb_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/movies/edit.html.erb_spec.rb" afterPath="$PROJECT_DIR$/spec/views/movies/edit.html.erb_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/movies/index.html.erb_spec.rb" afterPath="$PROJECT_DIR$/spec/views/movies/index.html.erb_spec.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/movies/new.html.erb_spec.rb" afterPath="$PROJECT_DIR$/spec/views/movies/new.html.erb_spec.rb" />
@@ -185,48 +198,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="movie.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/models/movie.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="61" selection-start="1283" selection-end="1283" vertical-scroll-proportion="0.6996904">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="movies.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/admin/movies.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="18" selection-start="1038" selection-end="1038" vertical-scroll-proportion="0.0">
+            <state line="37" column="46" selection-start="807" selection-end="807" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <file leaf-file-name="actor.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/actor.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="27" selection-start="1413" selection-end="1413" vertical-scroll-proportion="0.44759208">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_movies.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/movies/_movies.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="28" selection-start="525" selection-end="525" vertical-scroll-proportion="-8.5">
+            <state line="3" column="2" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/movies/show.html.erb">
+      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="19" column="2" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="movies_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/movies_controller.rb">
+      <file leaf-file-name="schema.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/schema.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="26" selection-start="394" selection-end="394" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -235,16 +246,25 @@
       <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/movies/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="19" column="45" selection-start="856" selection-end="856" vertical-scroll-proportion="-6.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TODO" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TODO">
+      <file leaf-file-name="movies_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/movies_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="17" selection-start="649" selection-end="649" vertical-scroll-proportion="0.0">
+            <state line="4" column="1" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/movies/show.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="15.269231">
               <folding />
             </state>
           </provider>
@@ -253,7 +273,7 @@
       <file leaf-file-name="vod.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/vod.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="17" selection-start="247" selection-end="262" vertical-scroll-proportion="0.0">
+            <state line="14" column="30" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -289,22 +309,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/movies/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/movies/_movies.html.erb" />
         <option value="$PROJECT_DIR$/app/uploaders/poster_uploader.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_contact.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/actor_controller.rb" />
-        <option value="$PROJECT_DIR$/app/models/movie.rb" />
-        <option value="$PROJECT_DIR$/app/models/actor.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20120930175049_create_actors.rb" />
-        <option value="$PROJECT_DIR$/app/admin/movies.rb" />
         <option value="$PROJECT_DIR$/app/views/movies/temp.html.erb" />
         <option value="$PROJECT_DIR$/app/views/movies/index.js.erb" />
         <option value="$PROJECT_DIR$/TODO" />
-        <option value="$PROJECT_DIR$/app/controllers/movies_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/views/movies/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/movies_controller.rb" />
+        <option value="$PROJECT_DIR$/app/models/movie.rb" />
+        <option value="$PROJECT_DIR$/app/models/actor.rb" />
+        <option value="$PROJECT_DIR$/app/admin/movies.rb" />
       </list>
     </option>
   </component>
@@ -347,6 +367,130 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LegitStreams" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LegitStreams" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LegitStreams" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LegitStreams" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LegitStreams" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LegitStreams" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LegitStreams" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="movies" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LegitStreams" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LegitStreams" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LegitStreams" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LegitStreams" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LegitStreams" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LegitStreams" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LegitStreams" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LegitStreams" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="RailsProjectView">
         <subPane>
           <PATH>
@@ -479,284 +623,6 @@
             <PATH_ELEMENT USER_OBJECT="controllers">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LegitStreams" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LegitStreams" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap-sass (v2.1.0.0, ruby-1.9.3-p125) [gem]" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LegitStreams" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap-sass (v2.1.0.0, ruby-1.9.3-p125) [gem]" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LegitStreams" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap-sass (v2.1.0.0, ruby-1.9.3-p125) [gem]" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LegitStreams" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap-sass (v2.1.0.0, ruby-1.9.3-p125) [gem]" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LegitStreams" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap-sass (v2.1.0.0, ruby-1.9.3-p125) [gem]" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LegitStreams" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LegitStreams" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LegitStreams" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LegitStreams" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LegitStreams" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LegitStreams" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="migrate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LegitStreams" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LegitStreams" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="movies" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LegitStreams" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LegitStreams" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LegitStreams" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LegitStreams" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LegitStreams" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LegitStreams" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LegitStreams" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LegitStreams" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LegitStreams" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LegitStreams" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javascripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -1176,23 +1042,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32996634" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16312595" sideWeight="0.68686867" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24886191" sideWeight="0.32659933" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27010623" sideWeight="0.6700337" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2094082" sideWeight="0.68350166" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26262626" sideWeight="0.49772382" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3131313" sideWeight="0.4969651" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3164983" sideWeight="0.4969651" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27441078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32996634" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1257,24 +1123,45 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/controllers/actor_controller.rb">
+    <entry file="file://$PROJECT_DIR$/TODO">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="95" selection-end="95" vertical-scroll-proportion="0.0" />
+        <state line="26" column="17" selection-start="649" selection-end="649" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/movie.rb">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="988" selection-end="988" vertical-scroll-proportion="0.0" />
+        <state line="44" column="27" selection-start="1413" selection-end="1413" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/actor.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/movies/_movies.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="31" selection-start="89" selection-end="89" vertical-scroll-proportion="0.0" />
+        <state line="13" column="28" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/actors.rb">
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/movies.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activerecord-3.2.1/lib/active_record/nested_attributes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="291" column="0" selection-start="12538" selection-end="12538" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="2" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/vod.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="30" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/schema.rb">
@@ -1282,26 +1169,9 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20120930175049_create_actors.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/movies/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="14" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/vod.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="17" selection-start="247" selection-end="262" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/movies.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="18" selection-start="1038" selection-end="1038" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/movies/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="19" column="45" selection-start="856" selection-end="856" vertical-scroll-proportion="-6.0">
           <folding />
         </state>
       </provider>
@@ -1311,40 +1181,45 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/movies_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/movies/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="26" selection-start="394" selection-end="394" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="15.269231">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/movies/_form.html.erb">
+    <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TODO">
+    <entry file="file://$PROJECT_DIR$/app/controllers/movies_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="17" selection-start="649" selection-end="649" vertical-scroll-proportion="0.0">
+        <state line="4" column="1" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/movies/_movies.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/models/actor.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="28" selection-start="525" selection-end="525" vertical-scroll-proportion="-8.5">
+        <state line="3" column="2" selection-start="71" selection-end="71" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+    <entry file="file://$PROJECT_DIR$/app/admin/movies.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="27" selection-start="1413" selection-end="1413" vertical-scroll-proportion="0.44759208">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state line="37" column="46" selection-start="807" selection-end="807" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/movie.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="61" selection-start="1283" selection-end="1283" vertical-scroll-proportion="0.6996904">
+          <folding />
         </state>
       </provider>
     </entry>

@@ -2,8 +2,8 @@ class MoviesController < ApplicationController
   # GET /movies
   # GET /movies.json
   has_scope :language
-  has_scope :actor1
-  has_scope :actor2
+  has_scope :actor_1
+  has_scope :actor_2
   has_scope :year
 
   def index
