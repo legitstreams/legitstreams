@@ -1,6 +1,5 @@
 Before Launch
 
-endless pagination
 contact us
 fill data
 
@@ -9,7 +8,7 @@ After Launch
 optimize sharing buttons for better load and position
 fix dropdown styling
 meta tag in each page
-movie actor field to include all actors.
+movie actor data in movie page
 url for model name has gibbrish characters.
 dropdown styling - Make it fix on top on scroll
 add text search on top

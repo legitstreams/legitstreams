@@ -50,7 +50,7 @@ class PosterUploader < CarrierWave::Uploader::Base
   end
 
   version :movie_small_poster do
-      process :resize_to_fit => [130, 200]
+      process :resize_to_fit => [130, 185]
       process :convert => 'jpeg'
   end
 
