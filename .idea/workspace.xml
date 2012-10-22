@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c151a0c-5fc3-44f0-bd4d-ea4af0e3a034" name="Default" comment="Add Contact and Changed Application JS to make search and pagination work">
-      <change type="DELETED" beforePath="C:\Users\Vivek\RubymineProjects\LegitStreams\db\migrate\20121022054543_add_devise_to_admin_users.rb" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Vivek\RubymineProjects\LegitStreams\netflix.txt" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Vivek\RubymineProjects\LegitStreams\netflix.txt.bak" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Vivek\RubymineProjects\LegitStreams\netflix2.txt" afterPath="" />
@@ -13,6 +12,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/movies.rb" afterPath="$PROJECT_DIR$/app/admin/movies.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/movies/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/movies/_form.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20121022095712_change_data_type_for_synopsis.rb" afterPath="$PROJECT_DIR$/db/migrate/20121022095712_change_data_type_for_synopsis.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tasks/movies_upload.rake" afterPath="$PROJECT_DIR$/lib/tasks/movies_upload.rake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload_data/netflix.txt" afterPath="$PROJECT_DIR$/upload_data/netflix.txt" />
@@ -42,10 +42,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="movies_upload.rake" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="movies_upload.rake" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/tasks/movies_upload.rake">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="46" selection-start="1193" selection-end="1193" vertical-scroll-proportion="0.512894">
+            <state line="32" column="46" selection-start="1193" selection-end="1193" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="20121022095712_change_data_type_for_synopsis.rb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20121022095712_change_data_type_for_synopsis.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="34" selection-start="133" selection-end="133" vertical-scroll-proportion="0.1491228">
               <folding />
             </state>
           </provider>
@@ -952,16 +961,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20121022095712_change_data_type_for_synopsis.rb">
+    <entry file="file://$PROJECT_DIR$/lib/tasks/movies_upload.rake">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="38" selection-start="184" selection-end="184" vertical-scroll-proportion="0.34795323">
+        <state line="32" column="46" selection-start="1193" selection-end="1193" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/tasks/movies_upload.rake">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20121022095712_change_data_type_for_synopsis.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="46" selection-start="1193" selection-end="1193" vertical-scroll-proportion="0.512894">
+        <state line="3" column="34" selection-start="133" selection-end="133" vertical-scroll-proportion="0.1491228">
           <folding />
         </state>
       </provider>

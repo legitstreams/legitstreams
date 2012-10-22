@@ -1,7 +1,7 @@
 class ChangeDataTypeForSynopsis < ActiveRecord::Migration
   def up
     change_table :movies do |t|
-         t.change :synopsis, :text, :limit => 1000000000000
+         t.change :synopsis, :text
     end
   end
 
