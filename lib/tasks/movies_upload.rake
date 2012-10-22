@@ -25,4 +25,12 @@ task :recreate_versions => :environment do
     end
 end
 
+task :delete_movies  => :environment do
+  Movie.delete_all
+  Vod.delete_all
+  Actor.delete_all
+end
 
+task :delete_actors  => :environment do
+  Actor.delete_all
+end

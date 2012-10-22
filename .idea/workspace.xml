@@ -12,7 +12,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/movies.rb" afterPath="$PROJECT_DIR$/app/admin/movies.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/movies/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/movies/_form.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20121022054543_add_devise_to_admin_users.rb" afterPath="$PROJECT_DIR$/db/migrate/20121022054543_add_devise_to_admin_users.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tasks/movies_upload.rake" afterPath="$PROJECT_DIR$/lib/tasks/movies_upload.rake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload_data/netflix.txt" afterPath="$PROJECT_DIR$/upload_data/netflix.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/upload_data/netflix_cast.txt" afterPath="$PROJECT_DIR$/upload_data/netflix_cast.txt" />
     </list>
     <ignored path="LegitStreams.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,19 +50,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="movies_upload.rake" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="movies_upload.rake" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/tasks/movies_upload.rake">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="66" selection-start="941" selection-end="941" vertical-scroll-proportion="0.0">
+            <state line="34" column="20" selection-start="1252" selection-end="1252" vertical-scroll-proportion="0.6103152">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="movies.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="movies.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/admin/movies.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="31" selection-start="1601" selection-end="1601" vertical-scroll-proportion="0.51657456">
+            <state line="69" column="31" selection-start="1601" selection-end="1601" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -157,10 +160,10 @@
         <option value="$PROJECT_DIR$/app/models/actor.rb" />
         <option value="$PROJECT_DIR$/app/uploaders/poster_uploader.rb" />
         <option value="$PROJECT_DIR$/TODO" />
-        <option value="$PROJECT_DIR$/lib/tasks/movies_upload.rake" />
         <option value="$PROJECT_DIR$/app/views/movies/_form.html.erb" />
         <option value="$PROJECT_DIR$/upload_data/netflix_cast.txt" />
         <option value="$PROJECT_DIR$/app/admin/movies.rb" />
+        <option value="$PROJECT_DIR$/lib/tasks/movies_upload.rake" />
       </list>
     </option>
   </component>
@@ -218,56 +221,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="LegitStreams" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LegitStreams" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LegitStreams" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LegitStreams" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LegitStreams" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LegitStreams" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LegitStreams" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -995,16 +948,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/tasks/movies_upload.rake">
+    <entry file="file://$PROJECT_DIR$/app/admin/movies.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="66" selection-start="941" selection-end="941" vertical-scroll-proportion="0.0">
+        <state line="69" column="31" selection-start="1601" selection-end="1601" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/movies.rb">
+    <entry file="file://$PROJECT_DIR$/lib/tasks/movies_upload.rake">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="31" selection-start="1601" selection-end="1601" vertical-scroll-proportion="0.51657456">
+        <state line="34" column="20" selection-start="1252" selection-end="1252" vertical-scroll-proportion="0.6103152">
           <folding />
         </state>
       </provider>
