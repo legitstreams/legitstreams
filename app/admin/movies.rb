@@ -65,23 +65,24 @@ ActiveAdmin.register Movie do
               f.input :remote_poster_url, :label => "OR URL TO Poster Image"
           end
 
-          f.has_many :actors do |a|
-              f.inputs "ACTORS" do
+          f.inputs "ACTORS" do
+
+            f.has_many :actors do |a|
                   if !a.object.nil?
                     a.input :_destroy, :as => :boolean, :label => "Destroy?"
                   end
                   a.input :name
-              end
+            end
           end
 
 
-    f.has_many :vods do |p|
-        f.inputs "VODS" do
-            if !p.object.nil?
-              p.input :_destroy, :as => :boolean, :label => "Destroy?"
-            end
-            p.input :movie_url
-            p.input :platform
+    f.inputs "VODS" do
+        f.has_many :vods do |p|
+                if !p.object.nil?
+                  p.input :_destroy, :as => :boolean, :label => "Destroy?"
+                end
+                p.input :movie_url
+                p.input :platform
         end
     end
 

@@ -2,177 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c151a0c-5fc3-44f0-bd4d-ea4af0e3a034" name="Default" comment="Add Contact and Changed Application JS to make search and pagination work">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/LegitStreams.iml" afterPath="$PROJECT_DIR$/.idea/LegitStreams.iml" />
+      <change type="DELETED" beforePath="C:\Users\Vivek\RubymineProjects\LegitStreams\netflix.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Vivek\RubymineProjects\LegitStreams\netflix.txt.bak" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Vivek\RubymineProjects\LegitStreams\netflix2.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Vivek\RubymineProjects\LegitStreams\netflix2.txt.bak" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/dropdown.png" afterPath="$PROJECT_DIR$/app/assets/images/dropdown.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/moviekaka.png" afterPath="$PROJECT_DIR$/app/assets/images/moviekaka.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/rails.png" afterPath="$PROJECT_DIR$/app/assets/images/rails.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/doc/README_FOR_APP" afterPath="$PROJECT_DIR$/doc/README_FOR_APP" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/netflix2.txt.bak" afterPath="$PROJECT_DIR$/netflix2.txt.bak" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/favicon.ico" afterPath="$PROJECT_DIR$/public/favicon.ico" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascript/codebase/imgs/dataview/bottom.png" afterPath="$PROJECT_DIR$/public/javascript/codebase/imgs/dataview/bottom.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascript/codebase/imgs/dataview/dnd_selector.png" afterPath="$PROJECT_DIR$/public/javascript/codebase/imgs/dataview/dnd_selector.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascript/codebase/imgs/dataview/dnd_selector_cells.png" afterPath="$PROJECT_DIR$/public/javascript/codebase/imgs/dataview/dnd_selector_cells.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascript/codebase/imgs/dataview/dnd_selector_lines.png" afterPath="$PROJECT_DIR$/public/javascript/codebase/imgs/dataview/dnd_selector_lines.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascript/codebase/imgs/dataview/marker.png" afterPath="$PROJECT_DIR$/public/javascript/codebase/imgs/dataview/marker.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascript/codebase/imgs/dataview/selection_bg.png" afterPath="$PROJECT_DIR$/public/javascript/codebase/imgs/dataview/selection_bg.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascript/codebase/imgs/dataview/sky_blue_grid.gif" afterPath="$PROJECT_DIR$/public/javascript/codebase/imgs/dataview/sky_blue_grid.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/movies/images/000/000/001/original/gaj.jpg" afterPath="$PROJECT_DIR$/public/system/movies/images/000/000/001/original/gaj.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/system/movies/images/000/000/001/thumb/gaj.jpg" afterPath="$PROJECT_DIR$/public/system/movies/images/000/000/001/thumb/gaj.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore.bak" afterPath="$PROJECT_DIR$/.gitignore.bak" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.rdoc" afterPath="$PROJECT_DIR$/README.rdoc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rakefile" afterPath="$PROJECT_DIR$/Rakefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TODO" afterPath="$PROJECT_DIR$/TODO" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/actors.rb" afterPath="$PROJECT_DIR$/app/admin/actors.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/admin_user.rb" afterPath="$PROJECT_DIR$/app/admin/admin_user.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/dashboard.rb" afterPath="$PROJECT_DIR$/app/admin/dashboard.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/movies.rb" afterPath="$PROJECT_DIR$/app/admin/movies.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/platforms.rb" afterPath="$PROJECT_DIR$/app/admin/platforms.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/vods.rb" afterPath="$PROJECT_DIR$/app/admin/vods.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/active_admin.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/active_admin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/actor.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/actor.js.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/movies.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/movies.js.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/platforms.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/platforms.js.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/vods.js.coffee" afterPath="$PROJECT_DIR$/app/assets/javascripts/vods.js.coffee" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/active_admin.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/active_admin.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/actor.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/actor.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/movies.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/movies.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/platforms.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/platforms.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/vods.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/vods.css.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/actor_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/actor_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/movies_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/movies_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/platforms_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/platforms_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/vods_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/vods_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/actor_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/actor_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/application_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/application_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/movies_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/movies_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/platforms_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/platforms_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/helpers/vods_helper.rb" afterPath="$PROJECT_DIR$/app/helpers/vods_helper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/mailers/.gitkeep" afterPath="$PROJECT_DIR$/app/mailers/.gitkeep" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/.gitkeep" afterPath="$PROJECT_DIR$/app/models/.gitkeep" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/actor.rb" afterPath="$PROJECT_DIR$/app/models/actor.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/admin_user.rb" afterPath="$PROJECT_DIR$/app/models/admin_user.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/movie.rb" afterPath="$PROJECT_DIR$/app/models/movie.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/platform.rb" afterPath="$PROJECT_DIR$/app/models/platform.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/vod.rb" afterPath="$PROJECT_DIR$/app/models/vod.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/uploaders/logo_uploader.rb" afterPath="$PROJECT_DIR$/app/uploaders/logo_uploader.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/uploaders/poster_uploader.rb" afterPath="$PROJECT_DIR$/app/uploaders/poster_uploader.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/actor/create.html.erb" afterPath="$PROJECT_DIR$/app/views/actor/create.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/actor/view.html.erb" afterPath="$PROJECT_DIR$/app/views/actor/view.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/movies/_vods.html.erb" afterPath="$PROJECT_DIR$/app/views/admin/movies/_vods.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_addons.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_addons.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_analytics.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_analytics.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_contact.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_contact.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_messages.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_messages.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_navigation.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/movies/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/movies/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/movies/_movies.html.erb" afterPath="$PROJECT_DIR$/app/views/movies/_movies.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/movies/index.html.erb" afterPath="$PROJECT_DIR$/app/views/movies/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/movies/show.html.erb" afterPath="$PROJECT_DIR$/app/views/movies/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.ru.bak" afterPath="$PROJECT_DIR$/config.ru.bak" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.ru" afterPath="$PROJECT_DIR$/config.ru" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/boot.rb" afterPath="$PROJECT_DIR$/config/boot.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environment.rb" afterPath="$PROJECT_DIR$/config/environment.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/development.rb" afterPath="$PROJECT_DIR$/config/environments/development.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/test.rb" afterPath="$PROJECT_DIR$/config/environments/test.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/active_admin.rb" afterPath="$PROJECT_DIR$/config/initializers/active_admin.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/backtrace_silencers.rb" afterPath="$PROJECT_DIR$/config/initializers/backtrace_silencers.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/carrierwave.rb" afterPath="$PROJECT_DIR$/config/initializers/carrierwave.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/devise.rb" afterPath="$PROJECT_DIR$/config/initializers/devise.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/inflections.rb" afterPath="$PROJECT_DIR$/config/initializers/inflections.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/mime_types.rb" afterPath="$PROJECT_DIR$/config/initializers/mime_types.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/secret_token.rb" afterPath="$PROJECT_DIR$/config/initializers/secret_token.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/session_store.rb" afterPath="$PROJECT_DIR$/config/initializers/session_store.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/will_paginate.rb" afterPath="$PROJECT_DIR$/config/initializers/will_paginate.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/wrap_parameters.rb" afterPath="$PROJECT_DIR$/config/initializers/wrap_parameters.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/devise.en.yml" afterPath="$PROJECT_DIR$/config/locales/devise.en.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/locales/en.yml" afterPath="$PROJECT_DIR$/config/locales/en.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20120920164258_create_movies.rb" afterPath="$PROJECT_DIR$/db/migrate/20120920164258_create_movies.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20120920164627_create_platforms.rb" afterPath="$PROJECT_DIR$/db/migrate/20120920164627_create_platforms.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20120920164851_create_vods.rb" afterPath="$PROJECT_DIR$/db/migrate/20120920164851_create_vods.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20120922062638_add_relationship_ids_to_vods.rb" afterPath="$PROJECT_DIR$/db/migrate/20120922062638_add_relationship_ids_to_vods.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20120922064732_add_movie_active_state_to_movies.rb" afterPath="$PROJECT_DIR$/db/migrate/20120922064732_add_movie_active_state_to_movies.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20120923080034_devise_create_admin_users.rb" afterPath="$PROJECT_DIR$/db/migrate/20120923080034_devise_create_admin_users.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20120923080058_create_admin_notes.rb" afterPath="$PROJECT_DIR$/db/migrate/20120923080058_create_admin_notes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20120923080059_move_admin_notes_to_comments.rb" afterPath="$PROJECT_DIR$/db/migrate/20120923080059_move_admin_notes_to_comments.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20120923172619_remove_image_from_movies.rb" afterPath="$PROJECT_DIR$/db/migrate/20120923172619_remove_image_from_movies.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20120923190116_add_poster_to_movies.rb" afterPath="$PROJECT_DIR$/db/migrate/20120923190116_add_poster_to_movies.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20120924093821_add_slug_to_movies.rb" afterPath="$PROJECT_DIR$/db/migrate/20120924093821_add_slug_to_movies.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20120924094359_create_friendly_id_slugs.rb" afterPath="$PROJECT_DIR$/db/migrate/20120924094359_create_friendly_id_slugs.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20120930175049_create_actors.rb" afterPath="$PROJECT_DIR$/db/migrate/20120930175049_create_actors.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/assets/.gitkeep" afterPath="$PROJECT_DIR$/lib/assets/.gitkeep" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tasks/.gitkeep" afterPath="$PROJECT_DIR$/lib/tasks/.gitkeep" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tasks/movies_upload.rake" afterPath="$PROJECT_DIR$/lib/tasks/movies_upload.rake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/.gitkeep" afterPath="$PROJECT_DIR$/log/.gitkeep" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/netflix.txt.bak" afterPath="$PROJECT_DIR$/netflix.txt.bak" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/netflix.txt" afterPath="$PROJECT_DIR$/netflix.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/netflix2.txt" afterPath="$PROJECT_DIR$/netflix2.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/404.html" afterPath="$PROJECT_DIR$/public/404.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/422.html" afterPath="$PROJECT_DIR$/public/422.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/500.html" afterPath="$PROJECT_DIR$/public/500.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascript/codebase/dhtmlxdataprocessor.js" afterPath="$PROJECT_DIR$/public/javascript/codebase/dhtmlxdataprocessor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascript/codebase/dhtmlxdataprocessor_debug.js" afterPath="$PROJECT_DIR$/public/javascript/codebase/dhtmlxdataprocessor_debug.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascript/codebase/dhtmlxdataview.css" afterPath="$PROJECT_DIR$/public/javascript/codebase/dhtmlxdataview.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascript/codebase/dhtmlxdataview.js" afterPath="$PROJECT_DIR$/public/javascript/codebase/dhtmlxdataview.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascript/codebase/dhtmlxdataview_debug.css" afterPath="$PROJECT_DIR$/public/javascript/codebase/dhtmlxdataview_debug.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascript/codebase/dhtmlxdataview_debug.js" afterPath="$PROJECT_DIR$/public/javascript/codebase/dhtmlxdataview_debug.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascript/codebase/types/ftypes.css" afterPath="$PROJECT_DIR$/public/javascript/codebase/types/ftypes.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/javascript/codebase/types/ftypes.js" afterPath="$PROJECT_DIR$/public/javascript/codebase/types/ftypes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/robots.txt" afterPath="$PROJECT_DIR$/public/robots.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script/rails" afterPath="$PROJECT_DIR$/script/rails" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/actor_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/actor_controller_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/movies_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/movies_controller_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/platforms_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/platforms_controller_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/controllers/vods_controller_spec.rb" afterPath="$PROJECT_DIR$/spec/controllers/vods_controller_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/helpers/actor_helper_spec.rb" afterPath="$PROJECT_DIR$/spec/helpers/actor_helper_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/helpers/movies_helper_spec.rb" afterPath="$PROJECT_DIR$/spec/helpers/movies_helper_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/helpers/platforms_helper_spec.rb" afterPath="$PROJECT_DIR$/spec/helpers/platforms_helper_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/helpers/vods_helper_spec.rb" afterPath="$PROJECT_DIR$/spec/helpers/vods_helper_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/actor_spec.rb" afterPath="$PROJECT_DIR$/spec/models/actor_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/admin_user_spec.rb" afterPath="$PROJECT_DIR$/spec/models/admin_user_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/movie_spec.rb" afterPath="$PROJECT_DIR$/spec/models/movie_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/platform_spec.rb" afterPath="$PROJECT_DIR$/spec/models/platform_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/models/vod_spec.rb" afterPath="$PROJECT_DIR$/spec/models/vod_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/requests/movies_spec.rb" afterPath="$PROJECT_DIR$/spec/requests/movies_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/routing/movies_routing_spec.rb" afterPath="$PROJECT_DIR$/spec/routing/movies_routing_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/actor/create.html.erb_spec.rb" afterPath="$PROJECT_DIR$/spec/views/actor/create.html.erb_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/actor/view.html.erb_spec.rb" afterPath="$PROJECT_DIR$/spec/views/actor/view.html.erb_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/movies/edit.html.erb_spec.rb" afterPath="$PROJECT_DIR$/spec/views/movies/edit.html.erb_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/movies/index.html.erb_spec.rb" afterPath="$PROJECT_DIR$/spec/views/movies/index.html.erb_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/movies/new.html.erb_spec.rb" afterPath="$PROJECT_DIR$/spec/views/movies/new.html.erb_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/movies/show.html.erb_spec.rb" afterPath="$PROJECT_DIR$/spec/views/movies/show.html.erb_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/platforms/create.html.erb_spec.rb" afterPath="$PROJECT_DIR$/spec/views/platforms/create.html.erb_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/platforms/new.html.erb_spec.rb" afterPath="$PROJECT_DIR$/spec/views/platforms/new.html.erb_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/vods/create.html.erb_spec.rb" afterPath="$PROJECT_DIR$/spec/views/vods/create.html.erb_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/views/vods/new.html.erb_spec.rb" afterPath="$PROJECT_DIR$/spec/views/vods/new.html.erb_spec.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/javascripts/.gitkeep" afterPath="$PROJECT_DIR$/vendor/assets/javascripts/.gitkeep" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/.gitkeep" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/.gitkeep" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/plugins/.gitkeep" afterPath="$PROJECT_DIR$/vendor/plugins/.gitkeep" />
     </list>
     <ignored path="LegitStreams.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -198,37 +38,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="movie.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/movie.rb">
+      <file leaf-file-name="logo_uploader.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/uploaders/logo_uploader.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="61" selection-start="1283" selection-end="1283" vertical-scroll-proportion="-9.04">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="poster_uploader.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/uploaders/poster_uploader.rb">
+      <file leaf-file-name="movies_upload.rake" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/tasks/movies_upload.rake">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="41" selection-start="1540" selection-end="1540" vertical-scroll-proportion="0.8045977">
+            <state line="16" column="66" selection-start="941" selection-end="941" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TODO" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TODO">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="5" selection-start="26" selection-end="36" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="movies.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="movies.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/admin/movies.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="46" selection-start="807" selection-end="807" vertical-scroll-proportion="0.0">
+            <state line="69" column="31" selection-start="1601" selection-end="1601" vertical-scroll-proportion="0.51657456">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="actor_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/actor_controller.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -243,48 +92,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/movies/_form.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="45" selection-start="856" selection-end="856" vertical-scroll-proportion="-6.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="movies_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/movies_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="1" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/movies/show.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="19" selection-start="939" selection-end="939" vertical-scroll-proportion="-11.230769">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="_movies.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/movies/_movies.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="31" selection-start="203" selection-end="203" vertical-scroll-proportion="-3.9230769">
+            <state line="6" column="31" selection-start="203" selection-end="203" vertical-scroll-proportion="-2.9615386">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/movies/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="23" column="52" selection-start="1027" selection-end="1027" vertical-scroll-proportion="-9.153846">
               <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="..movies" pinned="false" current="false" current-in-tab="false">
+        <entry file="dbDummy://dbElement:/7c2fe203/ed2a774c-8f81-4bf1-9f5b-2ade0340edcf/..movies">
+          <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="..actors" pinned="false" current="false" current-in-tab="false">
+        <entry file="dbDummy://dbElement:/7c2fe203/ed2a774c-8f81-4bf1-9f5b-2ade0340edcf/..actors">
+          <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+            <state />
           </provider>
         </entry>
       </file>
@@ -309,8 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_contact.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/actor_controller.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20120930175049_create_actors.rb" />
@@ -318,13 +152,15 @@
         <option value="$PROJECT_DIR$/app/views/movies/index.js.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/views/movies/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/movies_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/movie.rb" />
         <option value="$PROJECT_DIR$/app/models/actor.rb" />
-        <option value="$PROJECT_DIR$/app/admin/movies.rb" />
         <option value="$PROJECT_DIR$/app/uploaders/poster_uploader.rb" />
         <option value="$PROJECT_DIR$/TODO" />
+        <option value="$PROJECT_DIR$/lib/tasks/movies_upload.rake" />
+        <option value="$PROJECT_DIR$/app/views/movies/_form.html.erb" />
+        <option value="$PROJECT_DIR$/upload_data/netflix_cast.txt" />
+        <option value="$PROJECT_DIR$/app/admin/movies.rb" />
       </list>
     </option>
   </component>
@@ -382,6 +218,56 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="LegitStreams" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LegitStreams" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LegitStreams" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LegitStreams" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LegitStreams" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LegitStreams" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LegitStreams" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -529,14 +415,14 @@
     <property name="Database.TableEditor.Splitter" value="0.90000004" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="preferences.toDoOptions" />
-    <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="RakeTaksPopup.undocumentedIncluded" value="true" />
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="Ruby.ViewRefParam.DefaultExtension" value="html.erb" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="Ruby.ViewRefParam.DefaultExtension" value="html.erb" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -548,27 +434,7 @@
       <recent name="C:\Users\Vivek\RubymineProjects\LegitStreams\app\views\admin\movies" />
     </key>
   </component>
-  <component name="RunManager" selected="Rails.Development: LegitStreams">
-    <configuration default="false" name="routes" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
-      <module name="LegitStreams" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs />
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="routes" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
-      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
-      <RunnerSettings RunnerId="RubyRunner" />
-      <ConfigurationWrapper RunnerId="RubyRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Rake.import_netflix_actors">
     <configuration default="false" name="import_movies" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
       <module name="LegitStreams" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -628,6 +494,26 @@
       <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
       <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="db:migrate" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <RunnerSettings RunnerId="RubyRunner" />
+      <ConfigurationWrapper RunnerId="RubyRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="import_netflix_actors" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
+      <module name="LegitStreams" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$PROJECT_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="import_netflix_actors" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
@@ -742,6 +628,15 @@
         <option name="RakeTask" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
+      <method>
+        <option name="RakeTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
       <predefined_log_file id="RUBY_CUCUMBER" enabled="true" />
       <module name="" />
@@ -769,15 +664,6 @@
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="CUCUMBER_RUNNER_PATH" VALUE="" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_RUNNER" VALUE="false" />
       <CUCUMBER_RUN_CONFIG_SETTINGS_ID NAME="SETTINGS_VERSION" VALUE="2" />
-      <method>
-        <option name="RakeTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote">
-      <JSRemoteDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSRemoteDebuggerConfigurationSettings>
       <method>
         <option name="RakeTask" enabled="false" />
       </method>
@@ -878,15 +764,15 @@
       <method />
     </configuration>
     <list size="9">
-      <item index="0" class="java.lang.String" itemvalue="Rake.routes" />
-      <item index="1" class="java.lang.String" itemvalue="Rake.import_movies" />
-      <item index="2" class="java.lang.String" itemvalue="Query Language Console.Default" />
-      <item index="3" class="java.lang.String" itemvalue="Rake.test" />
-      <item index="4" class="java.lang.String" itemvalue="Rake.spec" />
-      <item index="5" class="java.lang.String" itemvalue="Rails.Production: LegitStreams" />
-      <item index="6" class="java.lang.String" itemvalue="Rails.Development: LegitStreams" />
-      <item index="7" class="java.lang.String" itemvalue="Rake.recreate_versions" />
-      <item index="8" class="java.lang.String" itemvalue="Rake.db:migrate" />
+      <item index="0" class="java.lang.String" itemvalue="Rake.import_movies" />
+      <item index="1" class="java.lang.String" itemvalue="Query Language Console.Default" />
+      <item index="2" class="java.lang.String" itemvalue="Rake.test" />
+      <item index="3" class="java.lang.String" itemvalue="Rake.spec" />
+      <item index="4" class="java.lang.String" itemvalue="Rails.Production: LegitStreams" />
+      <item index="5" class="java.lang.String" itemvalue="Rails.Development: LegitStreams" />
+      <item index="6" class="java.lang.String" itemvalue="Rake.recreate_versions" />
+      <item index="7" class="java.lang.String" itemvalue="Rake.db:migrate" />
+      <item index="8" class="java.lang.String" itemvalue="Rake.import_netflix_actors" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -940,15 +826,15 @@
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16312595" sideWeight="0.68686867" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16312595" sideWeight="0.6851852" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24886191" sideWeight="0.32659933" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2094082" sideWeight="0.68350166" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21320182" sideWeight="0.6851852" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26262626" sideWeight="0.49772382" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3164983" sideWeight="0.4969651" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3148148" sideWeight="0.4969651" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1019,50 +905,26 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/movies.js.coffee">
+    <entry file="file://$PROJECT_DIR$/db/migrate/20120923080034_devise_create_admin_users.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/activerecord-3.2.1/lib/active_record/nested_attributes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="291" column="0" selection-start="12538" selection-end="12538" vertical-scroll-proportion="0.33333334">
+        <state line="4" column="24" selection-start="118" selection-end="254" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+    <entry file="dbDummy://dbElement:/7c2fe203/ed2a774c-8f81-4bf1-9f5b-2ade0340edcf/..admin_users">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/uploaders/poster_uploader.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="2" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0">
+        <state line="52" column="41" selection-start="1540" selection-end="1540" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/vod.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="30" selection-start="366" selection-end="366" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/schema.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/movies/_form.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="45" selection-start="856" selection-end="856" vertical-scroll-proportion="-6.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb">
+    <entry file="file://$PROJECT_DIR$/app/uploaders/logo_uploader.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
@@ -1071,7 +933,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/movies_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="1" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0">
+        <state line="4" column="1" selection-start="107" selection-end="107" vertical-scroll-proportion="0.046961326">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="141" selection-end="141" vertical-scroll-proportion="0.42265195">
           <folding />
         </state>
       </provider>
@@ -1083,44 +952,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/movies.rb">
+    <entry file="file://$PROJECT_DIR$/app/controllers/actor_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="46" selection-start="807" selection-end="807" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/movie.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="61" selection-start="1283" selection-end="1283" vertical-scroll-proportion="-9.04">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/movies/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="19" selection-start="939" selection-end="939" vertical-scroll-proportion="-11.230769">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/movies/_movies.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="31" selection-start="203" selection-end="203" vertical-scroll-proportion="-3.9230769">
+        <state line="6" column="31" selection-start="203" selection-end="203" vertical-scroll-proportion="-2.9615386">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TODO">
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="5" selection-start="26" selection-end="36" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbElement:/7c2fe203/ed2a774c-8f81-4bf1-9f5b-2ade0340edcf/..actors">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbElement:/7c2fe203/ed2a774c-8f81-4bf1-9f5b-2ade0340edcf/..movies">
+      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/movies/_form.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="52" selection-start="1027" selection-end="1027" vertical-scroll-proportion="-9.153846">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/uploaders/poster_uploader.rb">
+    <entry file="file://$PROJECT_DIR$/upload_data/netflix_cast.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="41" selection-start="1540" selection-end="1540" vertical-scroll-proportion="0.8045977">
+        <state line="521" column="53" selection-start="13244" selection-end="13244" vertical-scroll-proportion="0.5548961">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/tasks/movies_upload.rake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="66" selection-start="941" selection-end="941" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/movies.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="31" selection-start="1601" selection-end="1601" vertical-scroll-proportion="0.51657456">
           <folding />
         </state>
       </provider>
