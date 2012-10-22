@@ -15,13 +15,13 @@
       <strong> starring</strong>
 
       <div style="display: inline">
-      <%= select("actor","name",Actor.select("* ,count(name) as c_name").group("name").order("c_name DESC").map {|u| [u.name,u.name]}.uniq ,{:prompt=> "ANY"},{:name => "actor_1",:class=>"select", :title=>"ANY ACTOR"})  %>
+      <%= select("actor","name",Actor.select("name,count(name) as c_name").group("name").order("c_name DESC").map {|u| [u.name,u.name]}.uniq ,{:prompt=> "ANY"},{:name => "actor_1",:class=>"select", :title=>"ANY ACTOR"})  %>
       </div>
 
         <strong>and</strong>
 
       <div style="display: inline">
-        <%= select("actor","name",Actor.select("*   ,count(name) as c_name").group("name").order("c_name DESC").map {|u| [u.name,u.name]}.uniq,{:prompt=> "ANY"},{:name => "actor_2",:class=>"select", :title=>"ANY ACTOR"} )  %>
+        <%= select("actor","name",Actor.select("name,count(name) as c_name").group("name").order("c_name DESC").map {|u| [u.name,u.name]}.uniq,{:prompt=> "ANY"},{:name => "actor_2",:class=>"select", :title=>"ANY ACTOR"} )  %>
       </div>
 
     </h5>
