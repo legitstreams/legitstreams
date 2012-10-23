@@ -19,6 +19,28 @@ task :import_netflix_actors => :environment do
     end
 end
 
+task :import_youtube_movies => :environment do
+  File.open("upload_data/youtube.txt", "r").each do |line|
+    title, year, language, synopsis, movie_url, poster_url, director, actor_list = line.force_encoding('binary').encode('utf-8', :invalid => :replace, :undef => :replace).strip.split("\t")
+    puts title
+    puts poster_url
+    u = Movie.new(:title => title, :year=> year, :language => language, :synopsis => synopsis, :remote_poster_url=>poster_url, :director => director)
+    u.save
+    v = u.vods.create(:movie_url => movie_url, :platform_id => 2)
+    v.save
+
+    unless actor_list.nil?
+      actors_split = actor_list.force_encoding('binary').encode('utf-8', :invalid => :replace, :undef => :replace).strip.split(",")
+      actors_split.each do |actor_name|
+        puts actor_name.gsub(/"|^ +| $+|\n/i,'').to_s
+        a = u.actors.create(:name => actor_name.gsub(/"|^ +| $+|\n/i,'').to_s)
+        a.save
+      end
+    end
+  end
+end
+
+
 task :recreate_versions => :environment do
     Movie.all.each do |movie|
       movie.poster.recreate_versions!

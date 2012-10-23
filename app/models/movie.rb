@@ -33,12 +33,7 @@ class Movie < ActiveRecord::Base
   scope :actor_2, lambda { |actor_2| joins("INNER JOIN actors as a2 ON movies.id = a2.movie_id").where( 'a2.name=?', actor_2) }
   scope :year, lambda { |year| where("year >=  ?", year) }
 
-
-
-
-
   mount_uploader :poster, PosterUploader
-
   strip_attributes :only => :remote_poster_url
 
   validates :title, presence: true
