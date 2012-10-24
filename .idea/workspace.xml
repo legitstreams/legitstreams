@@ -51,7 +51,7 @@
       <file leaf-file-name="movies_upload.rake" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/tasks/movies_upload.rake">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="7" selection-start="968" selection-end="968" vertical-scroll-proportion="0.6">
+            <state line="17" column="26" selection-start="956" selection-end="956" vertical-scroll-proportion="0.3970588">
               <folding />
             </state>
           </provider>
@@ -978,7 +978,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/tasks/movies_upload.rake">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="7" selection-start="968" selection-end="968" vertical-scroll-proportion="0.6">
+        <state line="17" column="26" selection-start="956" selection-end="956" vertical-scroll-proportion="0.3970588">
           <folding />
         </state>
       </provider>
