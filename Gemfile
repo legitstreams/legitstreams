@@ -13,6 +13,7 @@ gem 'has_scope'
 gem 'jquery-rails', '2.0.2'
 gem 'will_paginate', '~> 3.0.3'
 gem "strip_attributes", "~> 1.0"
+gem 'rails3-jquery-autocomplete', '0.9.0'
 
 
 # Bundle edge Rails instead:

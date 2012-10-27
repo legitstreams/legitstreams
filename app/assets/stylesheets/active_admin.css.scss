@@ -5,7 +5,7 @@
 // Active Admin source.
 //
 // For example, to change the sidebar width:
-// $sidebar-width: 242px;
+$sidebar-width: 450px;
 
 // Active Admin's got SASS!
 @import "active_admin/mixins";
@@ -17,7 +17,21 @@
 //   body.active_admin {
 //      .status_tag { background: #6090DB; }
 //   }
-//
+
+body.active_admin #active_admin_content #main_content_wrapper #main_content {
+margin-right: 500px;
+}
+
+div.movie_url_column { width: 20px; }
+
+form.formtastic  fieldset.has_many_fields  li {
+    float: left;
+    margin-right: 1em;
+
+}
+
+
+///////
 // Notice that Active Admin CSS rules are nested within a
 // 'body.active_admin' selector to prevent conflicts with
 // other pages in the app. It is best to wrap your changes in a 

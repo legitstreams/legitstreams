@@ -1,5 +1,6 @@
 
 ActiveAdmin.register Platform do
+  filter :name
 
   index do
     column "Platform Name" do |platform|
@@ -25,7 +26,7 @@ ActiveAdmin.register Platform do
         panel "Now Plalying" do
          table_for platform.vods do
             column "Movie Title" do |vod|
-              link_to vod.movie.title, admin_movie_path(vod.movie)
+              link_to vod.movie.title, admin_movie_path(vod.movie),:target=>"_blank"
             end
             column "Year" do |vod|
               vod.movie.year
@@ -42,7 +43,9 @@ ActiveAdmin.register Platform do
             column "Poster Image" do |vod|
               image_tag(vod.movie.poster_url(:thumb))
             end
-            column :movie_url
+            column "Video URL" do |vod|
+              link_to vod.movie_url,vod.movie_url
+            end
             column "" do |vod|
               link_to "Remove", admin_vod_path(vod), confirm: 'Are you sure?', method: :delete
             end

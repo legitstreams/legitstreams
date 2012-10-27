@@ -8,8 +8,7 @@ class MoviesController < ApplicationController
 
   def index
 
-
-    @movies = apply_scopes(Movie).order("year DESC").paginate(:per_page => 24, :page => params[:page])
+   @movies = apply_scopes(Movie).order("year DESC").paginate(:per_page => 24, :page => params[:page])
     #@movies = Movie.search(params[:movie]).order(sort_column + " " + sort_direction)
     respond_to do |format|
       format.html # index.html.erb
