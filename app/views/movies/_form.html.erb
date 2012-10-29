@@ -3,13 +3,13 @@
       <strong>Watch movies in</strong>
 
       <div style="display: inline">
-      <%= select("movie","language", Movie.select("language").order("language ASC").map {|u| [u.language,u.language]}.uniq,{:prompt=> "ANY LANGUAGE"},{:name => "language",:class=>"select", :title=>"ANY LANGUAGE"} )  %>
+      <%= select("movie","language", Movie.select("language").uniq.order("language ASC").map {|u| [u.language,u.language]},{:prompt=> "ANY LANGUAGE"},{:name => "language",:class=>"select", :title=>"ANY LANGUAGE"} )  %>
       </div>
 
       <strong>after</strong>
 
       <div style="display: inline">
-      <%= select("movie","year",Movie.select("year").order("year DESC").map {|u| [u.year,u.year]}.uniq,{:prompt=> "ANY YEAR"},{:name => "year",:class=>"select", :title=>"ANY YEAR"})  %>
+      <%= select("movie","year",Movie.select("year").uniq.order("year DESC").map {|u| [u.year,u.year]},{:prompt=> "ANY YEAR"},{:name => "year",:class=>"select", :title=>"ANY YEAR"})  %>
       </div>
 
       <strong> starring</strong>
