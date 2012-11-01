@@ -22,7 +22,7 @@ class TxtDb
               unless actor_list.nil?
                           actors_split = actor_list.force_encoding('binary').encode('utf-8', :invalid => :replace, :undef => :replace).strip.split(",")
                           actors_split.each do |actor_name|
-                            puts actor_name.gsub(/"|^ +| $+|\n/i,'').to_s
+                            #puts actor_name.gsub(/"|^ +| $+|\n/i,'').to_s
                             a = u.actors.build(:name => actor_name.gsub(/"|^ +| $+|\n/i,'').to_s)
                             a.save
                           end

@@ -36,7 +36,7 @@ class Movie < ActiveRecord::Base
   mount_uploader :poster, PosterUploader
   strip_attributes :only => :remote_poster_url
 
-  validates :title, presence: true
+  validates :title, presence: true, :uniqueness => { :scope => [:year,:language] , :message => 'Duplicate Title'}
   validates :year, presence: true, length: { is: 4 }
   validates :language, presence: true
 
