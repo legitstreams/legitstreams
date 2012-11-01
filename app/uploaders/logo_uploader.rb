@@ -37,12 +37,12 @@ class LogoUploader < CarrierWave::Uploader::Base
 
   # Create different versions of your uploaded files:
    version :thumb do
-     process :resize_to_limit => [50, 50]
+     process :resize_and_pad => [50, 50]
      process :convert => 'jpeg'
    end
 
    version :small do
-     process :resize_to_fit => [100, 100]
+     process :resize_and_pad => [100, 100]
      process :convert => 'jpeg'
     end
 

@@ -15,6 +15,7 @@ gem 'will_paginate', '~> 3.0.3'
 gem "strip_attributes", "~> 1.0"
 gem 'rails3-jquery-autocomplete', '0.9.0'
 gem 'newrelic_rpm'
+gem 'text'
 
 
 # Bundle edge Rails instead:

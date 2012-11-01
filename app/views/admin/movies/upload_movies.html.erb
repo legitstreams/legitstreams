@@ -1,0 +1,6 @@
+<%= form_for :dump, :url=>{:action=>"import_txt"}, :html => { :multipart => true } do |f|  %>
+
+    <%= f.label "Select File" %>
+    <%= f.file_field :file %>
+    <%= f.submit 'Submit' %>
+<% end %>

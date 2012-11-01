@@ -8,6 +8,21 @@ ActiveAdmin.register Movie do
   config.sort_order = "title_asc"
   config.paginate = 50
 
+  action_item :only => :index do
+      link_to 'Upload From Text', :action => 'upload_movies'
+  end
+
+  collection_action :upload_movies do
+      render "admin/movies/upload_movies"
+  end
+
+  collection_action :import_txt, :method => :post do
+      TxtDb.upload_movies(params[:dump][:file])
+      redirect_to :action => :index, :notice => "Data imported successfully!"
+  end
+
+
+
   index do
       column "Movie Title" do |movie|
         link_to movie.title, admin_movie_path(movie)
