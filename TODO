@@ -18,5 +18,3 @@ strip white space from image url
 reduce file size of images
 make responsive for mobile
 add platform to search
-fix admin page data entry
-sort language and actor by number of his name entries in the db

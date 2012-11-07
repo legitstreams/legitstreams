@@ -63,7 +63,7 @@ class PosterUploader < CarrierWave::Uploader::Base
   # Override the filename of the uploaded files:
   # Avoid using model.id or version_name here, see uploader/store.rb for details.
    def filename
-      ("#{model.title}_#{model.year}.#{file.extension}").gsub(CarrierWave::SanitizedFile.sanitize_regexp,"_").downcase! if original_filename
+      ("#{model.title}_#{model.year}.jpeg").gsub(CarrierWave::SanitizedFile.sanitize_regexp,"_").downcase! if original_filename
    end
 
 end

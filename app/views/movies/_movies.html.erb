@@ -1,7 +1,7 @@
     <ul class="thumbnails">
       <div class="row">
 
-        <% @movies. each do |movie| %>
+        <% @movies.each do |movie| %>
           <li class="span2">
             <div class="thumbnail" align="center" >
                 <%= link_to image_tag(movie.poster_url(:movie_small_poster).to_s, :title => 'Watch Online - '+movie.title, :alt => 'Watch '+movie.title+' online'), movie %>
