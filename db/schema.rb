@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121022182159) do
+ActiveRecord::Schema.define(:version => 20121108061419) do
 
   create_table "active_admin_comments", :force => true do |t|
     t.string   "resource_id",   :null => false
@@ -65,25 +65,20 @@ ActiveRecord::Schema.define(:version => 20121022182159) do
   add_index "friendly_id_slugs", ["sluggable_type"], :name => "index_friendly_id_slugs_on_sluggable_type"
 
   create_table "movies", :force => true do |t|
-    t.text     "title",              :limit => 255
+    t.text     "title",           :limit => 255
     t.integer  "year"
     t.string   "language"
     t.string   "actor1"
     t.string   "actor2"
     t.string   "director"
-    t.text     "synopsis",           :limit => 1000000000000
-    t.datetime "created_at",                                  :null => false
-    t.datetime "updated_at",                                  :null => false
+    t.text     "synopsis",        :limit => 1000000000000
+    t.datetime "created_at"
+    t.datetime "updated_at"
     t.boolean  "active"
     t.string   "poster"
-    t.string   "image_file_name"
-    t.string   "image_content_type"
-    t.integer  "image_file_size"
-    t.datetime "image_updated_at"
     t.string   "slug"
+    t.integer  "no_of_platforms"
   end
-
-  add_index "movies", ["slug"], :name => "index_movies_on_slug"
 
   create_table "platforms", :force => true do |t|
     t.string   "name"

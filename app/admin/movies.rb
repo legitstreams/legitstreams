@@ -29,7 +29,7 @@ ActiveAdmin.register Movie do
       end
       column "Year", :year
       column "Language", :language
-      #column "Actor-1", :actor1
+      column "No Platforms", :no_of_platforms
       #column "Actor-2", :actor2
       column "Poster Image" do |movie|
            image_tag(movie.poster_url(:thumb))

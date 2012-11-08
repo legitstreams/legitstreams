@@ -41,17 +41,7 @@ task :import_youtube_movies => :environment do
 end
 
 
-task :recreate_versions => :environment do
-    Movie.all.each do |movie|
-      movie.poster.recreate_versions!
-    end
-end
 
-task :delete_movies  => :environment do
-  Movie.delete_all
-  Vod.delete_all
-  Actor.delete_all
-end
 
 task :delete_actors  => :environment do
   Actor.delete_all
