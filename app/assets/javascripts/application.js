@@ -27,16 +27,25 @@ $(function() {
         return false;
     });
 
-
-
-
-
     $("#movies_search").submit(function(){
         $.get(this.action,$(this).serialize(),null,"script");
         return false;
     });
 
 
+    if ($('.pagination').length){
+      $(window).scroll (function(){
+        url = $('.pagination .next_page').attr('href')
+        if (url && $(window).scrollTop() > $(document).height() - $(window).height() - 50)
+        {$('.pagination').text("Loading More Movies...")
+          $.get(url, function(data){
+                                  $('#movies').append(data);
+                                },"html")
+          $('.pagination').first().remove();
+          $(window).scroll()
+        }
+      });
+    };
 
 
 
