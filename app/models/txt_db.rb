@@ -10,7 +10,7 @@ class TxtDb
           title, year, language, synopsis, portal_url, movie_url, poster_url, director, actor_list = line.force_encoding('binary').encode('utf-8', :invalid => :replace, :undef => :replace).strip.split("\t")
           puts title
 
-          if (movie_id = check_duplicate_title_in_movies(title,language))== nil
+          if (movie_id = check_duplicate_title_in_movies(title,language,year))== nil
 
               puts "Duplicate Not Found"
               u = Movie.new(:title => title, :year=> year, :language => language, :synopsis => synopsis, :remote_poster_url=>poster_url, :director => director)
@@ -36,16 +36,16 @@ class TxtDb
       end
     end
 
-    def check_duplicate_title_in_movies(new_title,language)
+    def check_duplicate_title_in_movies(movie_title,language,year)
 
-       Movie.all.each do |movie|
-         distancestr = Text::Levenshtein.distance(new_title, movie.title)
-         if (distancestr < 2)&&(language == movie.language)
-           puts "Duplicate Movie =" + movie.title
-           return movie.id
-         end
-       end
-       return nil
+          Movie.all.each do |movie|
+            distancestr = Text::Levenshtein.distance(movie_title, movie.title)
+            if (distancestr < 2)&&(language == movie.language) && (year == movie.year)
+              puts "Duplicate Movie =" + movie.title
+              return movie.id
+            end
+          end
+          return nil
     end
 
 

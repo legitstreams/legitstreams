@@ -39,19 +39,11 @@ $(function() {
         return false;
     });
 
-  if ($('.pagination').length){
-    $(window).scroll (function(){
-      url = $('.pagination .next_page').attr('href')
-      if (url && $(window).scrollTop() > $(document).height() - $(window).height() - 50)
-      {$('.pagination').text("Loading More Movies...")
-        $.get(url, function(data){
-                                $('#movies').append(data);
-                              },"html")
-        $('.pagination').first().remove();
-        $(window).scroll()
-      }
-    });
-  };
+
+
+
+
+
 
 // Select Box Styling ... This needs to change to a better select box.
 
