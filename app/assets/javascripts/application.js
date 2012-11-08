@@ -27,10 +27,7 @@ $(function() {
         return false;
     });
 
-    $("#movies .pagination a").live("click", function() {
-      $.getScript(this.href);
-      return false;
-    });
+
 
 
 
