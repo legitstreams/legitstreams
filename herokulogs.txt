@@ -1,0 +1,285 @@
+2012-11-08T20:09:14+00:00 app[web.1]: 
+2012-11-08T20:09:14+00:00 app[web.1]: cache: [GET /movies/johnny-gaddaar] miss
+2012-11-08T20:09:14+00:00 app[web.1]: 
+2012-11-08T20:09:14+00:00 app[web.1]: 
+2012-11-08T20:09:14+00:00 app[web.1]: ActiveRecord::RecordNotFound (Couldn't find Movie with id=johnny-gaddaar):
+2012-11-08T20:09:14+00:00 app[web.1]:   app/controllers/movies_controller.rb:23:in `show'
+2012-11-08T20:09:14+00:00 app[web.1]: 
+2012-11-08T20:19:56+00:00 heroku[run.1]: Client connection is idle for 3600 seconds; closing
+2012-11-08T20:19:56+00:00 heroku[run.1]: Client connection closed. Sending SIGHUP to all processes
+2012-11-08T20:19:58+00:00 heroku[run.1]: Process exited with status 129
+2012-11-08T20:19:58+00:00 heroku[run.1]: State changed from up to complete
+2012-11-08T21:13:25+00:00 heroku[web.1]: Idling
+2012-11-08T21:13:28+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2012-11-08T21:13:29+00:00 app[web.1]: [2012-11-08 21:13:29] ERROR SignalException: SIGTERM
+2012-11-08T21:13:29+00:00 app[web.1]: 	/usr/local/lib/ruby/1.9.1/webrick/server.rb:90:in `select'
+2012-11-08T21:13:38+00:00 heroku[web.1]: Error R12 (Exit timeout) -> At least one process failed to exit within 10 seconds of SIGTERM
+2012-11-08T21:13:38+00:00 heroku[web.1]: Stopping remaining processes with SIGKILL
+2012-11-08T21:13:40+00:00 heroku[web.1]: Process exited with status 137
+2012-11-08T22:22:22+00:00 heroku[web.1]: Idling
+2012-11-08T22:22:25+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2012-11-08T22:22:26+00:00 app[web.1]: [2012-11-08 22:22:26] ERROR SignalException: SIGTERM
+2012-11-08T22:22:26+00:00 app[web.1]: 	/usr/local/lib/ruby/1.9.1/webrick/server.rb:90:in `select'
+2012-11-08T22:22:35+00:00 heroku[web.1]: Stopping remaining processes with SIGKILL
+2012-11-08T22:22:35+00:00 heroku[web.1]: Error R12 (Exit timeout) -> At least one process failed to exit within 10 seconds of SIGTERM
+2012-11-08T22:22:36+00:00 heroku[web.1]: Process exited with status 137
+2012-11-09T00:27:27+00:00 heroku[web.1]: Unidling
+2012-11-09T00:27:27+00:00 heroku[web.1]: State changed from down to starting
+2012-11-09T00:27:30+00:00 heroku[web.1]: Starting process with command `bundle exec rails server -p 40715`
+2012-11-09T00:27:42+00:00 app[web.1]: DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/01/04/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /app/config/environment.rb:5)
+2012-11-09T00:27:42+00:00 app[web.1]: DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/01/04/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /app/config/environment.rb:5)
+2012-11-09T00:27:42+00:00 app[web.1]: DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/01/04/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /app/config/environment.rb:5)
+2012-11-09T00:27:44+00:00 app[web.1]: => Ctrl-C to shutdown server
+2012-11-09T00:27:44+00:00 app[web.1]: ** [NewRelic][11/09/12 00:27:44 +0000 9206829e-8906-4a33-b302-9d15c084893e (2)] INFO : Dispatcher: webrick
+2012-11-09T00:27:44+00:00 app[web.1]: => Booting WEBrick
+2012-11-09T00:27:44+00:00 app[web.1]: => Rails 3.2.1 application starting in production on http://0.0.0.0:40715
+2012-11-09T00:27:44+00:00 app[web.1]: => Call with -d to detach
+2012-11-09T00:27:44+00:00 app[web.1]: ** [NewRelic][11/09/12 00:27:44 +0000 9206829e-8906-4a33-b302-9d15c084893e (2)] INFO : Application: legitstreams
+2012-11-09T00:27:44+00:00 app[web.1]: ** [NewRelic][11/09/12 00:27:44 +0000 9206829e-8906-4a33-b302-9d15c084893e (2)] INFO : New Relic Ruby Agent 3.5.0.1 Initialized: pid = 2
+2012-11-09T00:27:50+00:00 app[web.1]: [2012-11-09 00:27:50] INFO  WEBrick::HTTPServer#start: pid=2 port=40715
+2012-11-09T00:27:50+00:00 app[web.1]: [2012-11-09 00:27:50] INFO  WEBrick 1.3.1
+2012-11-09T00:27:50+00:00 app[web.1]: [2012-11-09 00:27:50] INFO  ruby 1.9.2 (2011-07-09) [x86_64-linux]
+2012-11-09T00:27:51+00:00 heroku[web.1]: State changed from starting to up
+2012-11-09T00:27:51+00:00 app[web.1]: Started GET "/movies/cutting-chai" for 66.249.76.184 at 2012-11-09 00:27:51 +0000
+2012-11-09T00:27:51+00:00 app[web.1]: 
+2012-11-09T00:27:51+00:00 app[web.1]: 
+2012-11-09T00:27:54+00:00 app[web.1]: ** [NewRelic][11/09/12 00:27:54 +0000 9206829e-8906-4a33-b302-9d15c084893e (2)] INFO : Connected to NewRelic Service at collector-4.newrelic.com
+2012-11-09T00:27:54+00:00 app[web.1]: ** [NewRelic][11/09/12 00:27:54 +0000 9206829e-8906-4a33-b302-9d15c084893e (2)] INFO : Reporting performance data every 60 seconds.
+2012-11-09T00:28:01+00:00 app[web.1]: WARN: tilt autoloading 'coffee_script' in a non thread-safe way; explicit require 'coffee_script' suggested.
+2012-11-09T00:28:10+00:00 heroku[router]: GET www.moviekaka.com/movies/cutting-chai dyno=web.1 queue=0 wait=0ms service=18344ms status=200 bytes=2335
+2012-11-09T00:28:10+00:00 app[web.1]: cache: [GET /movies/cutting-chai] miss
+2012-11-09T00:46:02+00:00 app[web.1]: 
+2012-11-09T00:46:02+00:00 app[web.1]: Started GET "/movies/cutting-chai" for 66.249.76.110 at 2012-11-09 00:46:02 +0000
+2012-11-09T00:46:02+00:00 app[web.1]: 
+2012-11-09T00:46:02+00:00 app[web.1]: cache: [GET /movies/cutting-chai] miss
+2012-11-09T01:35:10+00:00 app[web.1]: cache: [GET /robots.txt] miss, store
+2012-11-09T01:35:10+00:00 heroku[router]: GET www.moviekaka.com/robots.txt dyno=web.1 queue=0 wait=0ms service=26ms status=200 bytes=173
+2012-11-09T02:40:15+00:00 heroku[web.1]: Idling
+2012-11-09T02:40:18+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2012-11-09T02:40:18+00:00 app[web.1]: [2012-11-09 02:40:18] ERROR SignalException: SIGTERM
+2012-11-09T02:40:18+00:00 app[web.1]: 	/usr/local/lib/ruby/1.9.1/webrick/server.rb:90:in `select'
+2012-11-09T02:40:28+00:00 heroku[web.1]: Error R12 (Exit timeout) -> At least one process failed to exit within 10 seconds of SIGTERM
+2012-11-09T02:40:28+00:00 heroku[web.1]: Stopping remaining processes with SIGKILL
+2012-11-09T02:40:30+00:00 heroku[web.1]: Process exited with status 137
+2012-11-09T03:43:02+00:00 heroku[web.1]: Idling
+2012-11-09T03:43:05+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2012-11-09T03:43:05+00:00 app[web.1]: [2012-11-09 03:43:05] ERROR SignalException: SIGTERM
+2012-11-09T03:43:05+00:00 app[web.1]: 	/usr/local/lib/ruby/1.9.1/webrick/server.rb:90:in `select'
+2012-11-09T03:43:15+00:00 heroku[web.1]: Error R12 (Exit timeout) -> At least one process failed to exit within 10 seconds of SIGTERM
+2012-11-09T03:43:15+00:00 heroku[web.1]: Stopping remaining processes with SIGKILL
+2012-11-09T03:43:17+00:00 heroku[web.1]: Process exited with status 137
+2012-11-09T04:09:47+00:00 heroku[web.1]: Starting process with command `bundle exec rails server -p 59757`
+2012-11-09T04:10:02+00:00 app[web.1]: DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/01/04/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /app/config/environment.rb:5)
+2012-11-09T04:10:02+00:00 app[web.1]: DEPRECATION WARNING: You have R
+ails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/01/04/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /app/config/environment.rb:5)
+2012-11-09T04:10:02+00:00 app[web.1]: DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/01/04/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /app/config/environment.rb:5)
+2012-11-09T04:10:05+00:00 app[web.1]: => Booting WEBrick
+2012-11-09T04:10:05+00:00 app[web.1]: => Rails 3.2.1 application starting in production on http://0.0.0.0:59757
+2012-11-09T04:10:05+00:00 app[web.1]: => Call with -d to detach
+2012-11-09T04:10:05+00:00 app[web.1]: => Ctrl-C to shutdown server
+2012-11-09T04:10:05+00:00 app[web.1]: ** [NewRelic][11/09/12 04:10:05 +0000 19f998a6-cb91-4599-a0f1-45acb50c9e50 (2)] INFO : Dispatcher: webrick
+2012-11-09T04:10:05+00:00 app[web.1]: ** [NewRelic][11/09/12 04:10:05 +0000 19f998a6-cb91-4599-a0f1-45acb50c9e50 (2)] INFO : Application: legitstreams
+2012-11-09T04:10:05+00:00 app[web.1]: ** [NewRelic][11/09/12 04:10:05 +0000 19f998a6-cb91-4599-a0f1-45acb50c9e50 (2)] INFO : New Relic Ruby Agent 3.5.0.1 Initialized: pid = 2
+2012-11-09T04:10:11+00:00 app[web.1]: [2012-11-09 04:10:11] INFO  WEBrick 1.3.1
+2012-11-09T04:10:11+00:00 app[web.1]: [2012-11-09 04:10:11] INFO  ruby 1.9.2 (2011-07-09) [x86_64-linux]
+2012-11-09T04:10:11+00:00 app[web.1]: [2012-11-09 04:10:11] INFO  WEBrick::HTTPServer#start: pid=2 port=59757
+2012-11-09T04:10:14+00:00 app[web.1]: 
+2012-11-09T04:10:14+00:00 app[web.1]: 
+2012-11-09T04:10:14+00:00 app[web.1]: Started GET "/movies/gunasundari-katha" for 66.249.76.43 at 2012-11-09 04:10:14 +0000
+2012-11-09T04:10:15+00:00 app[web.1]: ** [NewRelic][11/09/12 04:10:15 +0000 19f998a6-cb91-4599-a0f1-45acb50c9e50 (2)] INFO : Connected to NewRelic Service at collector-4.newrelic.com
+2012-11-09T04:10:15+00:00 app[web.1]: ** [NewRelic][11/09/12 04:10:15 +0000 19f998a6-cb91-4599-a0f1-45acb50c9e50 (2)] INFO : Reporting performance data every 60 seconds.
+2012-11-09T04:10:31+00:00 app[web.1]: WARN: tilt autoloading 'coffee_script' in a non thread-safe way; explicit require 'coffee_script' suggested.
+2012-11-09T04:10:41+00:00 app[web.1]: cache: [GET /movies/gunasundari-katha] miss
+2012-11-09T04:48:29+00:00 app[web.1]: Started GET "/movies/love-express" for 66.249.76.212 at 2012-11-09 04:48:29 +0000
+2012-11-09T04:48:29+00:00 app[web.1]: 
+2012-11-09T04:48:29+00:00 app[web.1]: 
+2012-11-09T04:48:29+00:00 app[web.1]: cache: [GET /movies/love-express] miss
+2012-11-09T04:48:29+00:00 heroku[router]: GET www.moviekaka.com/movies/love-express dyno=web.1 queue=0 wait=0ms service=104ms status=200 bytes=2721
+2012-11-09T05:25:59+00:00 heroku[router]: GET www.moviekaka.com/ dyno=web.1 queue=0 wait=0ms service=4279ms status=200 bytes=141823
+2012-11-09T05:25:59+00:00 heroku[router]: GET www.moviekaka.com/assets/application-ee74f322394974c15531553e90011211.css dyno=web.1 queue=0 wait=0ms service=7ms status=304 bytes=0
+2012-11-09T05:26:00+00:00 heroku[router]: GET www.moviekaka.com/assets/moviekaka-009dc892ad2c7f845bf5826a81a6aa9d.png dyno=web.1 queue=0 wait=1ms service=6ms status=304 bytes=0
+2012-11-09T05:26:02+00:00 heroku[router]: GET www.moviekaka.com/assets/dropdown-6f8d66e968c622203d0cd1e56470845a.png dyno=web.1 queue=0 wait=0ms service=6ms status=304 bytes=0
+2012-11-09T05:26:05+00:00 heroku[router]: GET www.moviekaka.com/favicon.ico dyno=web.1 queue=0 wait=0ms service=5ms status=304 bytes=0
+2012-11-08T20:09:14+00:00 app[web.1]:   app/controllers/movies_controller.rb:23:in `show'
+2012-11-08T20:09:14+00:00 app[web.1]: 
+2012-11-08T20:19:56+00:00 heroku[run.1]: Client connection is idle for 3600 seconds; closing
+2012-11-08T20:19:56+00:00 heroku[run.1]: Client connection closed. Sending SIGHUP to all processes
+2012-11-08T20:19:58+00:00 heroku[run.1]: Process exited with status 129
+2012-11-08T20:19:58+00:00 heroku[run.1]: State changed from up to complete
+2012-11-08T21:13:25+00:00 heroku[web.1]: Idling
+2012-11-08T21:13:28+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2012-11-08T21:13:29+00:00 app[web.1]: [2012-11-08 21:13:29] ERROR SignalException: SIGTERM
+2012-11-08T21:13:29+00:00 app[web.1]: 	/usr/local/lib/ruby/1.9.1/webrick/server.rb:90:in `select'
+2012-11-08T21:13:38+00:00 heroku[web.1]: Error R12 (Exit timeout) -> At least one process failed to exit within 10 seconds of SIGTERM
+2012-11-08T21:13:38+00:00 heroku[web.1]: Stopping remaining processes with SIGKILL
+2012-11-08T21:13:40+00:00 heroku[web.1]: Process exited with status 137
+2012-11-08T22:22:22+00:00 heroku[web.1]: Idling
+2012-11-08T22:22:25+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2012-11-08T22:22:26+00:00 app[web.1]: [2012-11-08 22:22:26] ERROR SignalException: SIGTERM
+2012-11-08T22:22:26+00:00 app[web.1]: 	/usr/local/lib/ruby/1.9.1/webrick/server.rb:90:in `select'
+2012-11-08T22:22:35+00:00 heroku[web.1]: Stopping remaining processes with SIGKILL
+2012-11-08T22:22:35+00:00 heroku[web.1]: Error R12 (Exit timeout) -> At least one process failed to exit within 10 seconds of SIGTERM
+2012-11-08T22:22:36+00:00 heroku[web.1]: Process exited with status 137
+2012-11-09T00:27:27+00:00 heroku[web.1]: Unidling
+2012-11-09T00:27:27+00:00 heroku[web.1]: State changed from down to starting
+2012-11-09T00:27:30+00:00 heroku[web.1]: Starting process with command `bundle exec rails server -p 40715`
+2012-11-09T00:27:42+00:00 app[web.1]: DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/01/04/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /app/config/environment.rb:5)
+2012-11-09T00:27:42+00:00 app[web.1]: DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/01/04/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /app/config/environment.rb:5)
+2012-11-09T00:27:42+00:00 app[web.1]: DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0
+. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/01/04/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /app/config/environment.rb:5)
+2012-11-09T00:27:44+00:00 app[web.1]: => Ctrl-C to shutdown server
+2012-11-09T00:27:44+00:00 app[web.1]: ** [NewRelic][11/09/12 00:27:44 +0000 9206829e-8906-4a33-b302-9d15c084893e (2)] INFO : Dispatcher: webrick
+2012-11-09T00:27:44+00:00 app[web.1]: => Booting WEBrick
+2012-11-09T00:27:44+00:00 app[web.1]: => Rails 3.2.1 application starting in production on http://0.0.0.0:40715
+2012-11-09T00:27:44+00:00 app[web.1]: => Call with -d to detach
+2012-11-09T00:27:44+00:00 app[web.1]: ** [NewRelic][11/09/12 00:27:44 +0000 9206829e-8906-4a33-b302-9d15c084893e (2)] INFO : Application: legitstreams
+2012-11-09T00:27:44+00:00 app[web.1]: ** [NewRelic][11/09/12 00:27:44 +0000 9206829e-8906-4a33-b302-9d15c084893e (2)] INFO : New Relic Ruby Agent 3.5.0.1 Initialized: pid = 2
+2012-11-09T00:27:50+00:00 app[web.1]: [2012-11-09 00:27:50] INFO  WEBrick::HTTPServer#start: pid=2 port=40715
+2012-11-09T00:27:50+00:00 app[web.1]: [2012-11-09 00:27:50] INFO  WEBrick 1.3.1
+2012-11-09T00:27:50+00:00 app[web.1]: [2012-11-09 00:27:50] INFO  ruby 1.9.2 (2011-07-09) [x86_64-linux]
+2012-11-09T00:27:51+00:00 heroku[web.1]: State changed from starting to up
+2012-11-09T00:27:51+00:00 app[web.1]: Started GET "/movies/cutting-chai" for 66.249.76.184 at 2012-11-09 00:27:51 +0000
+2012-11-09T00:27:51+00:00 app[web.1]: 
+2012-11-09T00:27:51+00:00 app[web.1]: 
+2012-11-09T00:27:54+00:00 app[web.1]: ** [NewRelic][11/09/12 00:27:54 +0000 9206829e-8906-4a33-b302-9d15c084893e (2)] INFO : Connected to NewRelic Service at collector-4.newrelic.com
+2012-11-09T00:27:54+00:00 app[web.1]: ** [NewRelic][11/09/12 00:27:54 +0000 9206829e-8906-4a33-b302-9d15c084893e (2)] INFO : Reporting performance data every 60 seconds.
+2012-11-09T00:28:01+00:00 app[web.1]: WARN: tilt autoloading 'coffee_script' in a non thread-safe way; explicit require 'coffee_script' suggested.
+2012-11-09T00:28:10+00:00 heroku[router]: GET www.moviekaka.com/movies/cutting-chai dyno=web.1 queue=0 wait=0ms service=18344ms status=200 bytes=2335
+2012-11-09T00:28:10+00:00 app[web.1]: cache: [GET /movies/cutting-chai] miss
+2012-11-09T00:46:02+00:00 app[web.1]: 
+2012-11-09T00:46:02+00:00 app[web.1]: Started GET "/movies/cutting-chai" for 66.249.76.110 at 2012-11-09 00:46:02 +0000
+2012-11-09T00:46:02+00:00 app[web.1]: 
+2012-11-09T00:46:02+00:00 app[web.1]: cache: [GET /movies/cutting-chai] miss
+2012-11-09T01:35:10+00:00 app[web.1]: cache: [GET /robots.txt] miss, store
+2012-11-09T01:35:10+00:00 heroku[router]: GET www.moviekaka.com/robots.txt dyno=web.1 queue=0 wait=0ms service=26ms status=200 bytes=173
+2012-11-09T02:40:15+00:00 heroku[web.1]: Idling
+2012-11-09T02:40:18+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2012-11-09T02:40:18+00:00 app[web.1]: [2012-11-09 02:40:18] ERROR SignalException: SIGTERM
+2012-11-09T02:40:18+00:00 app[web.1]: 	/usr/local/lib/ruby/1.9.1/webrick/server.rb:90:in `select'
+2012-11-09T02:40:28+00:00 heroku[web.1]: Error R12 (Exit timeout) -> At least one process failed to exit within 10 seconds of SIGTERM
+2012-11-09T02:40:28+00:00 heroku[web.1]: Stopping remaining processes with SIGKILL
+2012-11-09T02:40:30+00:00 heroku[web.1]: Process exited with status 137
+2012-11-09T03:43:02+00:00 heroku[web.1]: Idling
+2012-11-09T03:43:05+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2012-11-09T03:43:05+00:00 app[web.1]: [2012-11-09 03:43:05] ERROR SignalException: SIGTERM
+2012-11-09T03:43:05+00:00 app[web.1]: 	/usr/local/lib/ruby/1.9.1/webrick/server.rb:90:in `select'
+2012-11-09T03:43:15+00:00 heroku[web.1]: Error R12 (Exit timeout) -> At least one process failed to exit within 10 seconds of SIGTERM
+2012-11-09T03:43:15+00:00 heroku[web.1]: Stopping remaining processes with SIGKILL
+2012-11-09T03:43:17+00:00 heroku[web.1]: Process exited with status 137
+2012-11-09T04:09:47+00:00 heroku[web.1]: Starting process with command `bundle exec rails server -p 59757`
+2012-11-09T04:10:02+00:00 app[web.1]: DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/01/04/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /app/config/environment.rb:5)
+2012-11-09T04:10:02+00:00 app[web.1]: DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/01/04/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /app/config/environment.rb:5)
+2012-11-09T04:10:02+00:00 app[web.1]: DEPRECATION WARNING: You have Rails 2.3-style plugins in vendor/plugins! Support for these plugins will be removed in Rails 4.0. Move them out and bundle them in your Gemfile, or fold them in to your app as lib/myplugin/* and config/initializers/myplugin.rb. See the release notes for more on this: http://weblog.rubyonrails.org/2012/01/04/rails-3-2-0-rc2-has-been-released. (called from <top (required)> at /app/config/environment.rb:5)
+2012-11-09T04:10:05+00:00 app[web.1]: => Booting WEBrick
+2012-11-09T04:10:05+00:00 app[web.1]: => Rails 3.2.1 application starting in production on http://0.0.0.0:59757
+2012-11-09T04:10:05+00:00 app[web.1]: => Call with -d to detach
+2012-11-09T04:10:05+00:00 app[web.1]: => Ctrl-C to shutdown server
+2012-11-09T04:10:05+00:00 app[web.1]: ** [NewRelic][11/09/12 04:10:05 +0000 19f998a6-cb91-4599-a0f1-45acb50c9e50 (2)] INFO : Dispatcher: webrick
+2012-11-09T04:10:05+00:00 app[web.1]: ** [NewRelic][11/09/12 04:10:05 +0000 19f998a6-cb91-4599-a0f1-45acb50c9e50 (2)] INFO : Application: legitstreams
+2012-11-09T04:10:05+00:00 app[web.1]: ** [NewRelic][11/09/12 04:10:05 +0000 19f998a6-cb91-4599-a0f1-45acb50c9e50 (2)] INFO : New Relic Ruby Agent 3.5.0.1 Initialized: pid = 2
+2012-11-09T04:10:11+00:00 app[web.1]: [2012-11-09 04:10:11] INFO  WEBrick 1.3.1
+2012-11-09T04:10:11+00:00 app[web.1]: [2012-11-09 04:10:11] INFO  ruby 1.9.2 (2011-07-09) [x86_64-linux]
+2012-11-09T04:10:11+00:00 app[web.1]: [2012-11-09 04:10:11] INFO  WEBrick::HTTPServer#start: pid=2 port=59757
+2012-11-09T04:10:14+00:00 app[web.1]: 
+2012-11-09T04:10:14+00:00 app[web.1]: 
+2012-11-09T04:10:14+00:00 app[web.1]: Started GET "/movies/gunasundari-katha" for 66.249.76.43 at 2012-11-09 04:10:14 +0000
+2012-11-09T04:10:15+00:00 app[web.1]: ** [NewRelic][11/09/12 04:10:15 +0000 19f998a6-cb91-4599-a0f1-45acb50c9e50 (2)] INFO : Connected to NewRelic Service at collector-4.newrelic.com
+2012-11-09T04:10:15+00:00 app[web.1]: ** [NewRelic][11/09/12 04:10:15 +0000 19f998a6-cb91-4599-a0f1-45acb50c9e50 (2)] INFO : Reporting performance data every 60 seconds.
+2012-11-09T04:10:31+00:00 app[web.1]: WARN: tilt autoloading 'coffee_script' in a non thread-safe way; explicit require 'coffee_script' suggested.
+2012-11-09T04:10:41+00:00 app[web.1]: cache: [GET /movies/gunasundari-katha] miss
+2012-11-09T04:48:29+00:00 app[web.1]: Started GET "/movies/love-express" for 66.249.76.212 at 2012-11-09 04:48:29 +0000
+2012-11-09T04:48:29+00:00 app[web.1]: 
+2012-11-09T04:48:29+00:00 app[web.1]: 
+2012-11-09T04:48:29+00:00 app[web.1]: cache: [GET /movies/love-express] miss
+2012-11-09T04:48:29+00:00 heroku[router]: GET www.moviekaka.com/movies/love-express dyno=web.1 queue=0 wait=0ms service=104ms status=200 bytes=2721
+2012-11-09T05:25:59+00:00 heroku[router]: GET www.moviekaka.com/ dyno=web.1 queue=0 wait=0ms service=4279ms status=200 bytes=141823
+2012-11-09T05:25:59+00:00 heroku[router]: GET www.moviekaka.com/assets/application-ee74f322394974c15531553e90011211.css dyno=web.1 queue=0 wait=0ms service=7ms status=304 bytes=0
+2012-11-09T05:26:00+00:00 heroku[router]: GET www.moviekaka.com/assets/moviekaka-009dc892ad2c7f845bf5826a81a6aa9d.png dyno=web.1 queue=0 wait=1ms service=6ms status=304 bytes=0
+2012-11-09T05:26:02+00:00 heroku[router]: GET www.moviekaka.com/assets/dropdown-6f8d66e968c622203d0cd1e56470845a.png dyno=web.1 queue=0 wait=0ms service=6ms status=304 bytes=0
+2012-11-09T05:26:05+00:00 heroku[router]: GET www.moviekaka.com/favicon.ico dyno=web.1 queue=0 wait=0ms service=5ms status=304 bytes=0
+2012-11-09T05:40:00+00:00 heroku[router]: GET www.moviekaka.com/ dyno=web.1 queue=0 wait=0ms service=2306ms status=200 bytes=141850
+2012-11-09T05:40:01+00:00 heroku[router]: GET www.moviekaka.com/assets/application-ee74f322394974c15531553e90011211.css dyno=web.1 queue=0 wait=0ms service=12ms status=304 bytes=0
+2012-11-09T05:40:02+00:00 heroku[router]: GET www.moviekaka.com/assets/moviekaka-009dc892ad2c7f845bf5826a81a6aa9d.png dyno=web.1 queue=0 wait=0ms service=5ms status=304 bytes=0
+2012-11-09T05:40:04+00:00 heroku[router]: GET www.moviekaka.com/assets/dropdown-6f8d66e968c622203d0cd1e56470845a.png dyno=web.1 queue=0 wait=0ms service=11ms status=304 bytes=0
+2012-11-09T05:40:59+00:00 heroku[router]: GET www.moviekaka.com/movies?page=2 dyno=web.1 queue=0 wait=0ms service=56ms status=304 bytes=0
+2012-11-09T05:42:22+00:00 app[web.1]: 
+2012-11-09T05:42:22+00:00 app[web.1]: 
+2012-11-09T05:42:22+00:00 app[web.1]: Started GET "/" for 27.106.62.78 at 2012-11-09 05:42:22 +0000
+2012-11-09T05:42:25+00:00 app[web.1]: cache: [GET /] miss
+2012-11-09T05:42:25+00:00 heroku[router]: GET www.moviekaka.com/ dyno=web.1 queue=0 wait=0ms service=3221ms status=200 bytes=141824
+2012-11-09T05:42:26+00:00 app[web.1]: 
+2012-11-09T05:42:26+00:00 app[web.1]: 
+2012-11-09T05:42:26+00:00 app[web.1]: Started GET "/assets/application-2ada88fece22d65e7f2383d77f15ef6c.js" for 27.106.62.78 at 2012-11-09 05:42:26 +0000
+2012-11-09T05:42:26+00:00 app[web.1]: cache: [GET /assets/application-2ada88fece22d65e7f2383d77f15ef6c.js] miss
+2012-11-09T05:42:26+00:00 app[web.1]: 
+2012-11-09T05:42:26+00:00 app[web.1]: 
+2012-11-09T05:42:26+00:00 app[web.1]: Started GET "/assets/application-ee74f322394974c15531553e90011211.css" for 27.106.62.78 at 2012-11-09 05:42:26 +0000
+2012-11-09T05:42:26+00:00 app[web.1]: cache: [GET /assets/application-ee74f322394974c15531553e90011211.css] miss
+2012-11-09T05:42:26+00:00 heroku[router]: GET www.moviekaka.com/assets/application-ee74f322394974c15531553e90011211.css dyno=web.1 queue=0 wait=0ms service=33ms status=304 bytes=0
+2012-11-09T05:42:26+00:00 heroku[router]: GET www.moviekaka.com/assets/application-2ada88fece22d65e7f2383d77f15ef6c.js dyno=web.1 queue=0 wait=0ms service=31ms status=304 bytes=0
+2012-11-09T05:42:26+00:00 heroku[router]: GET www.moviekaka.com/assets/moviekaka-009dc892ad2c7f845bf5826a81a6aa9d.png dyno=web.1 queue=0 wait=0ms service=50ms status=304 bytes=0
+2012-11-09T05:42:26+00:00 app[web.1]: 
+2012-11-09T05:42:26+00:00 app[web.1]: 
+2012-11-09T05:42:26+00:00 app[web.1]: Started GET "/assets/moviekaka-009dc892ad2c7f845bf5826a81a6aa9d.png" for 27.106.62.78 at 2012-11-09 05:42:26 +0000
+2012-11-09T05:42:26+00:00 app[web.1]: cache: [GET /assets/moviekaka-009dc892ad2c7f845bf5826a81a6aa9d.png] miss
+2012-11-09T05:42:29+00:00 app[web.1]: 
+2012-11-09T05:42:29+00:00 app[web.1]: 
+2012-11-09T05:42:29+00:00 app[web.1]: Started GET "/assets/dropdown-6f8d66e968c622203d0cd1e56470845a.png" for 27.106.62.78 at 2012-11-09 05:42:29 +0000
+2012-11-09T05:42:29+00:00 app[web.1]: cache: [GET /assets/dropdown-6f8d66e968c622203d0cd1e56470845a.png] miss
+2012-11-09T05:42:29+00:00 heroku[router]: GET www.moviekaka.com/assets/dropdown-6f8d66e968c622203d0cd1e56470845a.png dyno=web.1 queue=0 wait=0ms service=31ms status=304 bytes=0
+2012-11-09T05:42:31+00:00 app[web.1]: 
+2012-11-09T05:42:31+00:00 app[web.1]: 
+2012-11-09T05:42:31+00:00 app[web.1]: Started GET "/movies?page=2" for 27.106.62.78 at 2012-11-09 05:42:31 +0000
+2012-11-09T05:42:31+00:00 heroku[router]: GET www.moviekaka.com/movies?page=2 dyno=web.1 queue=0 wait=0ms service=172ms status=304 bytes=0
+2012-11-09T05:42:31+00:00 app[web.1]: cache: [GET /movies?page=2] miss
+2012-11-09T05:42:41+00:00 app[web.1]: 
+2012-11-09T05:42:41+00:00 app[web.1]: 
+2012-11-09T05:42:41+00:00 app[web.1]: Started GET "/movies/anagarikam" for 27.106.62.78 at 2012-11-09 05:42:41 +0000
+2012-11-09T05:42:41+00:00 heroku[router]: GET www.moviekaka.com/movies/anagarikam dyno=web.1 queue=0 wait=0ms service=36ms status=200 bytes=2188
+2012-11-09T05:42:41+00:00 app[web.1]: cache: [GET /movies/anagarikam] miss
+2012-11-09T05:42:42+00:00 heroku[router]: GET www.moviekaka.com/assets/application-ee74f322394974c15531553e90011211.css dyno=web.1 queue=0 wait=0ms service=7ms status=304 bytes=0
+2012-11-09T05:42:42+00:00 app[web.1]: 
+2012-11-09T05:42:42+00:00 app[web.1]: 
+2012-11-09T05:42:42+00:00 app[web.1]: Started GET "/assets/application-ee74f322394974c15531553e90011211.css" for 27.106.62.78 at 2012-11-09 05:42:42 +0000
+2012-11-09T05:42:42+00:00 app[web.1]: cache: [GET /assets/application-ee74f322394974c15531553e90011211.css] miss
+2012-11-09T05:42:42+00:00 app[web.1]: 
+2012-11-09T05:42:42+00:00 app[web.1]: 
+2012-11-09T05:42:42+00:00 app[web.1]: Started GET "/assets/application-2ada88fece22d65e7f2383d77f15ef6c.js" for 27.106.62.78 at 2012-11-09 05:42:42 +0000
+2012-11-09T05:42:42+00:00 app[web.1]: cache: [GET /assets/application-2ada88fece22d65e7f2383d77f15ef6c.js] miss
+2012-11-09T05:42:42+00:00 heroku[router]: GET www.moviekaka.com/assets/application-2ada88fece22d65e7f2383d77f15ef6c.js dyno=web.1 queue=0 wait=1ms service=10ms status=304 bytes=0
+2012-11-09T05:42:42+00:00 app[web.1]: 
+2012-11-09T05:42:42+00:00 app[web.1]: 
+2012-11-09T05:42:42+00:00 app[web.1]: Started GET "/assets/moviekaka-009dc892ad2c7f845bf5826a81a6aa9d.png" for 27.106.62.78 at 2012-11-09 05:42:42 +0000
+2012-11-09T05:42:42+00:00 app[web.1]: cache: [GET /assets/moviekaka-009dc892ad2c7f845bf5826a81a6aa9d.png] miss
+2012-11-09T05:42:42+00:00 heroku[router]: GET www.moviekaka.com/assets/moviekaka-009dc892ad2c7f845bf5826a81a6aa9d.png dyno=web.1 queue=0 wait=0ms service=20ms status=304 bytes=0
+2012-11-09T05:42:47+00:00 app[web.1]: 
+2012-11-09T05:42:47+00:00 app[web.1]: 
+2012-11-09T05:42:47+00:00 app[web.1]: Started GET "/" for 27.106.62.78 at 2012-11-09 05:42:47 +0000
+2012-11-09T05:42:51+00:00 app[web.1]: cache: [GET /] miss
+2012-11-09T05:42:51+00:00 heroku[router]: GET www.moviekaka.com/ dyno=web.1 queue=0 wait=0ms service=4245ms status=200 bytes=141824
+2012-11-09T05:42:52+00:00 heroku[router]: GET www.moviekaka.com/assets/application-ee74f322394974c15531553e90011211.css dyno=web.1 queue=0 wait=0ms service=23ms status=304 bytes=0
+2012-11-09T05:42:52+00:00 app[web.1]: 
+2012-11-09T05:42:52+00:00 app[web.1]: 
+2012-11-09T05:42:52+00:00 app[web.1]: Started GET "/assets/application-ee74f322394974c15531553e90011211.css" for 27.106.62.78 at 2012-11-09 05:42:52 +0000
+2012-11-09T05:42:52+00:00 app[web.1]: cache: [GET /assets/application-ee74f322394974c15531553e90011211.css] miss
+2012-11-09T05:42:52+00:00 app[web.1]: 
+2012-11-09T05:42:52+00:00 app[web.1]: 
+2012-11-09T05:42:52+00:00 app[web.1]: Started GET "/assets/application-2ada88fece22d65e7f2383d77f15ef6c.js" for 27.106.62.78 at 2012-11-09 05:42:52 +0000
+2012-11-09T05:42:52+00:00 app[web.1]: cache: [GET /assets/application-2ada88fece22d65e7f2383d77f15ef6c.js] miss
+2012-11-09T05:42:52+00:00 heroku[router]: GET www.moviekaka.com/assets/application-2ada88fece22d65e7f2383d77f15ef6c.js dyno=web.1 queue=0 wait=0ms service=25ms status=304 bytes=0
+2012-11-09T05:42:52+00:00 heroku[router]: GET www.moviekaka.com/assets/moviekaka-009dc892ad2c7f845bf5826a81a6aa9d.png dyno=web.1 queue=0 wait=0ms service=19ms status=304 bytes=0
+2012-11-09T05:42:52+00:00 app[web.1]: 
+2012-11-09T05:42:52+00:00 app[web.1]: 
+2012-11-09T05:42:52+00:00 app[web.1]: Started GET "/assets/moviekaka-009dc892ad2c7f845bf5826a81a6aa9d.png" for 27.106.62.78 at 2012-11-09 05:42:52 +0000
+2012-11-09T05:42:52+00:00 app[web.1]: cache: [GET /assets/moviekaka-009dc892ad2c7f845bf5826a81a6aa9d.png] miss
+2012-11-09T05:42:55+00:00 app[web.1]: 
+2012-11-09T05:42:55+00:00 app[web.1]: 
+2012-11-09T05:42:55+00:00 app[web.1]: Started GET "/assets/dropdown-6f8d66e968c622203d0cd1e56470845a.png" for 27.106.62.78 at 2012-11-09 05:42:55 +0000
+2012-11-09T05:42:55+00:00 app[web.1]: cache: [GET /assets/dropdown-6f8d66e968c622203d0cd1e56470845a.png] miss
+2012-11-09T05:42:55+00:00 heroku[router]: GET www.moviekaka.com/assets/dropdown-6f8d66e968c622203d0cd1e56470845a.png dyno=web.1 queue=0 wait=0ms service=27ms status=304 bytes=0
+2012-11-09T05:43:29+00:00 app[web.1]: 
+2012-11-09T05:43:29+00:00 app[web.1]: 
+2012-11-09T05:43:29+00:00 app[web.1]: Started GET "/movies?page=2" for 27.106.62.78 at 2012-11-09 05:43:29 +0000
+2012-11-09T05:43:29+00:00 app[web.1]: cache: [GET /movies?page=2] miss
+2012-11-09T05:43:29+00:00 heroku[router]: GET www.moviekaka.com/movies?page=2 dyno=web.1 queue=0 wait=0ms service=60ms status=304 bytes=0
+Terminate batch job (Y/N)? 
