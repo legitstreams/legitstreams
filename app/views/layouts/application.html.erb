@@ -4,8 +4,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><%= content_for?(:title) ? yield(:title) : "Watch Indian Movies Online Legally - MovieKaKa" %></title>
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="description" content= '<%= content_for?(:description) ? yield(:description) : "Online Movie Streaming Guide: Find websites officially streaming latest Indian movies. Search movies by language,year,actor etc. Most complete Indian movie listings from On-Demand services on internet." %>' />
+  <meta name="google-site-verification" content="oJsybZHLbqoZ3eusUdA2fUgRi2Fe1CPmqWfrih3aiVE" />
+
+  <meta property=og:title content= '<%=content_for?(:title) ? yield(:title) : "Watch Indian Movies Online Legally - MovieKaKa" %>' />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content='<%="#{request.protocol}#{request.host}#{request.fullpath}"%>' />
+  <meta property="og:image" content= '<%="#{request.protocol}#{request.host}/assets/moviekaka.png"%>'  />
+
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
 

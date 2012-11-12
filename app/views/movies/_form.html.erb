@@ -3,7 +3,7 @@
       <strong>Watch movies in</strong>
 
       <div style="display: inline">
-      <%= select("movie","language", Movie.select("language").uniq.order("language ASC").map {|u| [u.language,u.language]},{:prompt=> "ANY LANGUAGE"},{:name => "language",:class=>"select", :title=>"SELECT LANGUAGE"} )  %>
+      <%= select("movie","language", Movie.select("language").uniq.order("language ASC").map {|u| [u.language,u.language]},{:prompt=> "ANY LANGUAGE"},{:name => "language",:class=>"select", :title=>"ANY LANGUAGE"} )  %>
       </div>
 
       <strong>after</strong>
@@ -21,8 +21,8 @@
         <strong>and</strong>
 
       <div style="display: inline">
-        <%= select("actor","name",Actor.select("name,count(name) as c_name").group("name").order("c_name DESC").map {|u| [u.name,u.name]}.uniq,{:prompt=> "ANY ACTOR"},{:name => "actor_2",:class=>"select", :title=>"ANY ACTOR"} )  %>
-      </div>
+          <%= select("actor","name",Actor.select("name,count(name) as c_name").group("name").order("c_name DESC").map {|u| [u.name,u.name]}.uniq ,{:prompt=> "ANY ACTOR"},{:name => "actor_2",:class=>"select", :title=>"ANY ACTOR"})  %>
+        </div>
 
     </h5>
 

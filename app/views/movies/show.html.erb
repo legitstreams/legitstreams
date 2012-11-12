@@ -1,4 +1,5 @@
-<% provide(:title, 'Watch Indian Movies Online - '+ @movie.title) %>
+<% provide(:title, 'Watch '+ @movie.language + ' Movie ' + @movie.title + ' Online From Official Streaming Services') %>
+<% provide(:description, 'Online listings of internet services showing '+ @movie.year.to_s + ' '+ @movie.language + ' feature film ' + @movie.title + '. ' + @movie.synopsis) %>
 
 
 <p id="notice"><%= notice %></p>
