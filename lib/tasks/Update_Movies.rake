@@ -53,7 +53,9 @@ task :delete_movies  => :environment do
 end
 
 
-
+task :update_url_format  => :environment do
+  Movie.find_each(&:save)
+end
 
 def check_duplicate_titles(movie_title,language,year, movie_id)
 

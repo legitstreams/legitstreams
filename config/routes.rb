@@ -2,6 +2,8 @@ LegitStreams::Application.routes.draw do
 
 
 
+  match 'sitemap.xml' => 'sitemaps#sitemap'
+
   ActiveAdmin.routes(self)
 
   devise_for :admin_users, ActiveAdmin::Devise.config

@@ -17,7 +17,7 @@
 
 class Movie < ActiveRecord::Base
   extend FriendlyId
-    friendly_id :title, use: [:slugged, :history]
+    friendly_id :url_id, use: [:slugged, :history]
 
   has_many :vods, dependent: :destroy
   has_many :platforms, :through => :vods
@@ -40,7 +40,9 @@ class Movie < ActiveRecord::Base
   validates :year, presence: true, length: { is: 4 }
   validates :language, presence: true
 
-
+  def url_id
+    "#{title} #{year} #{language} movie"
+  end
 
   def strip_whitespace
     :remote_poster_url.strip

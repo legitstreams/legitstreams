@@ -71,6 +71,7 @@ GEM
       railties (~> 3.1)
       warden (~> 1.2.1)
     diff-lcs (1.1.3)
+    dynamic_sitemaps (1.0.8)
     erubis (2.7.0)
     excon (0.16.7)
     execjs (1.4.0)
@@ -194,6 +195,7 @@ GEM
       railties (~> 3.2.0)
       sass (>= 3.1.10)
       tilt (~> 1.3)
+    sitemap_notifier (0.0.4)
     slop (3.3.3)
     spork (0.9.0-x86-mingw32)
       win32-process
@@ -232,6 +234,7 @@ DEPENDENCIES
   bootstrap-sass
   carrierwave
   coffee-rails (= 3.2.2)
+  dynamic_sitemaps
   fog
   formtastic
   friendly_id
@@ -247,6 +250,7 @@ DEPENDENCIES
   rmagick
   rspec-rails (= 2.11.0)
   sass-rails (= 3.2.5)
+  sitemap_notifier
   spork (= 0.9.0)
   sqlite3 (= 1.3.5)
   strip_attributes (~> 1.0)

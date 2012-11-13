@@ -16,6 +16,8 @@ gem "strip_attributes", "~> 1.0"
 gem 'rails3-jquery-autocomplete', '0.9.0'
 gem 'newrelic_rpm'
 gem 'text'
+gem 'dynamic_sitemaps'
+gem 'sitemap_notifier'
 
 
 # Bundle edge Rails instead:
