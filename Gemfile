@@ -17,7 +17,7 @@ gem 'rails3-jquery-autocomplete', '0.9.0'
 gem 'newrelic_rpm'
 gem 'text'
 gem 'dynamic_sitemaps'
-gem 'sitemap_notifier'
+# gem 'sitemap_notifier'
 
 
 # Bundle edge Rails instead:
