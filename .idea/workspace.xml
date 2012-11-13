@@ -2,15 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c151a0c-5fc3-44f0-bd4d-ea4af0e3a034" name="Default" comment="Add Contact and Changed Application JS to make search and pagination work">
+      <change type="DELETED" beforePath="C:\Users\Vivek\RubymineProjects\LegitStreams\config\initializers\sitemap_notifier.rb" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Vivek\RubymineProjects\LegitStreams\db\development.sqlite3-journal" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Vivek\RubymineProjects\LegitStreams\dump.sql" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Vivek\RubymineProjects\LegitStreams\netflix.txt" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Vivek\RubymineProjects\LegitStreams\netflix.txt.bak" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Vivek\RubymineProjects\LegitStreams\netflix2.txt" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Vivek\RubymineProjects\LegitStreams\netflix2.txt.bak" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Vivek\RubymineProjects\LegitStreams\upload_data\netflix.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Vivek\RubymineProjects\LegitStreams\upload_data\netflix_cast.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Vivek\RubymineProjects\LegitStreams\upload_data\youtube.txt" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Vivek\RubymineProjects\LegitStreams\upload_data\youtube.txt.bak" afterPath="" />
       <change type="MOVED" beforePath="C:\Users\Vivek\RubymineProjects\LegitStreams\lib\tasks\Update_Movies.rake" afterPath="$PROJECT_DIR$/lib/tasks/update_movies.rake" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
@@ -19,7 +17,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Procfile" afterPath="$PROJECT_DIR$/Procfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TODO" afterPath="$PROJECT_DIR$/TODO" />
@@ -44,7 +41,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/movies/show.html.erb" afterPath="$PROJECT_DIR$/app/views/movies/show.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/sitemap.rb" afterPath="$PROJECT_DIR$/config/initializers/sitemap.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/sitemap_notifier.rb" afterPath="$PROJECT_DIR$/config/initializers/sitemap_notifier.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/newrelic.yml" afterPath="$PROJECT_DIR$/config/newrelic.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20121022095712_change_data_type_for_synopsis.rb" afterPath="$PROJECT_DIR$/db/migrate/20121022095712_change_data_type_for_synopsis.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20121022182159_change_data_type_for_title.rb" afterPath="$PROJECT_DIR$/db/migrate/20121022182159_change_data_type_for_title.rb" />
@@ -81,7 +77,7 @@
       <file leaf-file-name="Gemfile" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="23" selection-start="424" selection-end="440" vertical-scroll-proportion="0.2759227">
+            <state line="25" column="43" selection-start="562" selection-end="562" vertical-scroll-proportion="0.45518455">
               <folding />
             </state>
           </provider>
@@ -276,6 +272,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LegitStreams" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LegitStreams" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LegitStreams" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LegitStreams" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="initializers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -865,7 +893,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1676783" sideWeight="0.47643098" order="3" side_tool="false" content_ui="tabs" />
@@ -979,13 +1007,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/tasks/update_movies.rake">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="54" selection-start="1192" selection-end="1192" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/movie.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="23" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0">
@@ -1014,9 +1035,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/tasks/update_movies.rake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="54" selection-start="1192" selection-end="1192" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="23" selection-start="424" selection-end="440" vertical-scroll-proportion="0.2759227">
+        <state line="25" column="43" selection-start="562" selection-end="562" vertical-scroll-proportion="0.45518455">
           <folding />
         </state>
       </provider>
