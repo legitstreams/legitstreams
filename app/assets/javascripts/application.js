@@ -48,6 +48,10 @@ $(function() {
     };
 
 
+    $('.outbound_links').click(function() {
+      _gaq.push(['_trackEvent', 'Outbound Links', this.href]);
+    });
+
 
 
 

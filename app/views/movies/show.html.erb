@@ -36,8 +36,8 @@
         <% @movie.vods.each do |vod| %>
             <li class="span2">
               <div class="thumbnail" align="center" style="border: none" >
-                <%= link_to image_tag(vod.platform.logo_url(:small).to_s, :alt => 'Watch '+@movie.title+' on '+vod.platform.name, :title => 'Watch '+@movie.title+' on '+vod.platform.name,:class=>"img-rounded", :rel=>'nofollow' ), vod.movie_url,:target=>"_blank" %>
-                <h5><%= link_to truncate(vod.platform.name, :length => 20) ,vod.movie_url,:target=>"_blank" %></h5>
+                <%= link_to image_tag(vod.platform.logo_url(:small).to_s, :alt => 'Watch '+@movie.title+' on '+vod.platform.name, :title => 'Watch '+@movie.title+' on '+vod.platform.name,:class=>"img-rounded"), vod.movie_url,:target=>"_blank", :rel=>'nofollow', :class=>"outbound_links" %>
+                <h5><%= link_to truncate(vod.platform.name, :length => 20) ,vod.movie_url,:target=>"_blank" , :rel=>'nofollow',:class=>"outbound_links" %></h5>
               </div>
               <br><br>
             </li>
