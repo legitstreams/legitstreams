@@ -24,6 +24,7 @@ $(function() {
         $.get($("#movies_search").attr("action"), $("#movies_search").serialize(), function(data){
             $('#movies').html(data);
         }, "html");
+        _gaq.push(['_trackEvent', 'Search Actions', ($("#movies_search").attr("action"))]);
         return false;
     });
 
@@ -44,6 +45,7 @@ $(function() {
           $('.pagination').first().remove();
           $(window).scroll()
         }
+          _gaq.push(['_trackEvent', 'Scroll Links', url]);
       });
     };
 
