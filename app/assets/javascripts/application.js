@@ -44,8 +44,9 @@ $(function() {
                                 },"html")
           $('.pagination').first().remove();
           $(window).scroll()
-        }
           _gaq.push(['_trackEvent', 'Scroll Links', url]);
+        }
+
       });
     };
 
