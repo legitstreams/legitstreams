@@ -4,20 +4,19 @@
 
 <p id="notice"><%= notice %></p>
 
-<div class="row-fluid" id="movie_page">
+<div itemscope itemtype="http://schema.org/Movie" class="row-fluid" id="movie_page">
 
-  <div class="span3" id="poster_image" style="text-align:center">
+  <div itemprop="image" class="span3" id="poster_image" style="text-align:center">
     <%= image_tag(@movie.poster_url(:movie_poster),:title => @movie.title, :alt=> 'Watch ' + @movie.title + 'Online', :class=>"img-polaroid" ) %>
   </div>
 
   <div class="span8 offset1">
-    <div class="row" id="movie_title">
 
+    <div itemprop="name" class="row" id="movie_title">
       <h4><%= "#{@movie.title} ( #{@movie.year} ) , #{@movie.language} " %></h4>
-
     </div>
 
-    <div class="row" id="movie_info" style="text-align: justify">
+    <div itemprop="description" class="row" id="movie_info" style="text-align: justify">
       <p>
         <b>Synopsis:</b>
         <%= @movie.synopsis %>

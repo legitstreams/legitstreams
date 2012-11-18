@@ -1,0 +1,33 @@
+Before Launch
+
+contact us
+fill data
+
+After Launch
+---------------------------
+optimize sharing buttons for better load and position
+fix dropdown styling
+meta tag in each page
+movie actor data in movie page
+url for model name has gibbrish characters.
+dropdown styling - Make it fix on top on scroll
+add text search on top
+apply all other SEO tricks.
+auto share on twitter and fb
+strip white space from image url
+reduce file size of images
+make responsive for mobile
+add platform to search
+
+
+if Rails.env == 'production'
+
+
+  function recordOutboundLink(link, category, action) {
+      try {
+        _gaq.push(['_trackEvent', category , action ]);
+        setTimeout('document.location = "' + link.href + '"', 100)
+      }catch(err){}
+    }
+
+    setTimeout('window.open("' + this.href + '")', 100);

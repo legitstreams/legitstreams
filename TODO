@@ -18,6 +18,11 @@ strip white space from image url
 reduce file size of images
 make responsive for mobile
 add platform to search
+add persistence on back button
+add free vs pay
+add new column for film category
+new column for film genre
+
 
 
 if Rails.env == 'production'
