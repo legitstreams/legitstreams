@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html xmlns:fb="http://ogp.me/ns/fb#">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +7,14 @@
   <meta name="description" content= '<%= content_for?(:description) ? yield(:description) : "Online Movie Streaming Guide: Find websites officially streaming latest Indian movies. Search movies by language,year,actor etc. Most complete Indian movie listings from On-Demand services on internet." %>' />
   <meta name="google-site-verification" content="oJsybZHLbqoZ3eusUdA2fUgRi2Fe1CPmqWfrih3aiVE" />
 
-  <meta property=og:title content= '<%=content_for?(:title) ? yield(:title) : "Watch Indian Movies Online Legally - MovieKaKa" %>' />
-  <meta property="og:type" content="website" />
+
+  <meta property=og:title content= '<%=content_for?(:fbtitle) ? yield(:fbtitle) : "Watch Indian Movies Online Legally - MovieKaKa" %>' />
+  <meta property="og:type" content= '<%=content_for?(:fbtype) ? yield(:fbtype) : "website" %>' />
   <meta property="og:url" content='<%="#{request.protocol}#{request.host}#{request.fullpath}"%>' />
-  <meta property="og:image" content= '<%="#{request.protocol}#{request.host}/assets/moviekaka.png"%>'  />
+  <meta property="og:image" content= '<%=content_for?(:fbimage) ? yield(:fbimage) : "#{request.protocol}#{request.host}/assets/moviekaka.png"%>'  />
+  <meta property="og:description" content= '<%= content_for?(:description) ? yield(:description) : "Online Movie Streaming Guide: Find websites officially streaming latest Indian movies. Search movies by language,year,actor etc. Most complete Indian movie listings from On-Demand services on internet." %>' />
+  <meta property="og:site_name" content="MovieKaKa" />
+  <meta property="fb:admins" content="683730447" />
 
 
 
@@ -28,21 +32,24 @@
 
 <header>
   <div class="container">
-    <div class="row" style="vertical-align:baseline">
+    <div class="row">
       <div class="span6">
         <div id="logo">
           <%= link_to image_tag("moviekaka.png", :alt => "www.MovieKAKA.com"),root_path   %>
         </div>
       </div>
-      <div class="span2 offset2">
-        <div  id="addthis" >
-          <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
-            <a class="addthis_button_facebook"></a>
-            <a class="addthis_button_twitter"></a>
-            <a class="addthis_button_google_plusone_share"></a>
-            <a class="addthis_button_email"></a>
-          </div>
-        </div>
+      <div class="span2 offset2" id="social" style="display: inline-block;">
+          <div  id="addthis" >
+              <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+                <a class="addthis_button_facebook"></a>
+                <a class="addthis_button_twitter"></a>
+                <a class="addthis_button_google_plusone_share"></a>
+                <a class="addthis_button_email"></a>
+              </div>
+            </div>
+
+
+
       </div>
       <div class="span2">
         <a href="#contact" role="button" class="btn btn-primary" data-toggle="modal" >Contact Us</a>
@@ -75,9 +82,9 @@
     </div>
   </div> <!--! end of .container -->
 </div> <!--! end of #main -->
-<%= render 'layouts/addons' %>
 <%= render 'layouts/contact' %>
-
+<%= render 'layouts/signup' %>
+<%= render 'layouts/addons' %>
 </body>
 </html>
 

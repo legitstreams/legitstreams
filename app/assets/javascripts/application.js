@@ -44,7 +44,6 @@ $(function() {
                                 },"html")
           $('.pagination').first().remove();
             _gaq.push(['_trackEvent', 'After Scroll Links', url]);
-
           $(window).scroll()
 
         }

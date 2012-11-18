@@ -2,8 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c151a0c-5fc3-44f0-bd4d-ea4af0e3a034" name="Default" comment="Add Contact and Changed Application JS to make search and pagination work">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/layouts/_signup.html.erb" />
+      <change type="DELETED" beforePath="C:\Users\Vivek\RubymineProjects\LegitStreams\db\development.sqlite3-journal" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Vivek\RubymineProjects\LegitStreams\dump.sql" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Vivek\RubymineProjects\LegitStreams\netflix.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Vivek\RubymineProjects\LegitStreams\netflix.txt.bak" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Vivek\RubymineProjects\LegitStreams\netflix2.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Vivek\RubymineProjects\LegitStreams\netflix2.txt.bak" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Vivek\RubymineProjects\LegitStreams\upload_data\youtube.txt.bak" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\Vivek\RubymineProjects\LegitStreams\lib\tasks\Update_Movies.rake" afterPath="$PROJECT_DIR$/lib/tasks/update_movies.rake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/LegitStreams.iml" afterPath="$PROJECT_DIR$/.idea/LegitStreams.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Procfile" afterPath="$PROJECT_DIR$/Procfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TODO.bak" afterPath="$PROJECT_DIR$/TODO.bak" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TODO" afterPath="$PROJECT_DIR$/TODO" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/movies.rb" afterPath="$PROJECT_DIR$/app/admin/movies.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/platforms.rb" afterPath="$PROJECT_DIR$/app/admin/platforms.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/active_admin.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/active_admin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/application.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/active_admin.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/active_admin.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/movies_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/movies_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/movie.rb" afterPath="$PROJECT_DIR$/app/models/movie.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/txt_db.rb" afterPath="$PROJECT_DIR$/app/models/txt_db.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/vod.rb" afterPath="$PROJECT_DIR$/app/models/vod.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/uploaders/logo_uploader.rb" afterPath="$PROJECT_DIR$/app/uploaders/logo_uploader.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/uploaders/poster_uploader.rb" afterPath="$PROJECT_DIR$/app/uploaders/poster_uploader.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/admin/movies/upload_movies.html.erb" afterPath="$PROJECT_DIR$/app/views/admin/movies/upload_movies.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_addons.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_addons.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_analytics.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_analytics.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_contact.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_contact.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_signup.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/_signup.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/movies/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/movies/_form.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/movies/_movies.html.erb" afterPath="$PROJECT_DIR$/app/views/movies/_movies.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/movies/index.html.erb" afterPath="$PROJECT_DIR$/app/views/movies/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/movies/show.html.erb" afterPath="$PROJECT_DIR$/app/views/movies/show.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/sitemap.rb" afterPath="$PROJECT_DIR$/config/initializers/sitemap.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/newrelic.yml" afterPath="$PROJECT_DIR$/config/newrelic.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20121022095712_change_data_type_for_synopsis.rb" afterPath="$PROJECT_DIR$/db/migrate/20121022095712_change_data_type_for_synopsis.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20121022182159_change_data_type_for_title.rb" afterPath="$PROJECT_DIR$/db/migrate/20121022182159_change_data_type_for_title.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20121108061419_add_no_of_platforms_to_movies.rb" afterPath="$PROJECT_DIR$/db/migrate/20121108061419_add_no_of_platforms_to_movies.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/herokulogs.txt" afterPath="$PROJECT_DIR$/herokulogs.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/tasks/movies_upload.rake" afterPath="$PROJECT_DIR$/lib/tasks/movies_upload.rake" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/robots.txt" afterPath="$PROJECT_DIR$/public/robots.txt" />
     </list>
     <ignored path="LegitStreams.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,19 +79,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="25" selection-start="948" selection-end="948" vertical-scroll-proportion="0.6496815">
+            <state line="86" column="15" selection-start="3326" selection-end="3326" vertical-scroll-proportion="-11.038462">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/movies/index.html.erb">
+      <file leaf-file-name="_signup.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/_signup.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="8" selection-start="385" selection-end="385" vertical-scroll-proportion="-1.3076923">
+            <state line="263" column="0" selection-start="13109" selection-end="13109" vertical-scroll-proportion="9.432489">
               <folding />
             </state>
           </provider>
@@ -52,7 +100,7 @@
       <file leaf-file-name="_analytics.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/_analytics.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="465" selection-end="465" vertical-scroll-proportion="-7.8461537">
+            <state line="12" column="0" selection-start="465" selection-end="465" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -61,27 +109,7 @@
       <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="49" selection-start="1795" selection-end="1795" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_addons.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/_addons.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="15" selection-start="1039" selection-end="1039" vertical-scroll-proportion="-13.730769">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_contact.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/_contact.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="45" column="66" selection-start="1765" selection-end="1765" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -90,7 +118,7 @@
       <file leaf-file-name="_form.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/movies/_form.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="51" selection-start="71" selection-end="80" vertical-scroll-proportion="-0.65384614">
+            <state line="1" column="51" selection-start="71" selection-end="80" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -99,7 +127,25 @@
       <file leaf-file-name="show.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/movies/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="41" selection-start="483" selection-end="483" vertical-scroll-proportion="-3.9230769">
+            <state line="2" column="0" selection-start="298" selection-end="298" vertical-scroll-proportion="-1.3076923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_addons.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/_addons.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="52" selection-start="52" selection-end="52" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_movies.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/movies/_movies.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="31" selection-start="119" selection-end="119" vertical-scroll-proportion="-2.6153846">
               <folding />
             </state>
           </provider>
@@ -119,17 +165,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="social_buttons" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
-  </component>
-  <component name="GitLogSettings">
-    <option name="myStructureFilterPaths" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/app/views/movies/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/movies/index.html.erb" />
         <option value="$PROJECT_DIR$/public/robots.txt" />
         <option value="$PROJECT_DIR$/config/initializers/sitemap.rb" />
         <option value="C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/sitemap_notifier-0.0.4/lib/sitemap_notifier/notifier.rb" />
@@ -138,10 +182,9 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/layouts/_analytics.html.erb" />
         <option value="$PROJECT_DIR$/TODO" />
-        <option value="$PROJECT_DIR$/app/views/movies/_movies.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/app/views/movies/show.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/movies/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/movies/_movies.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_addons.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_signup.html.erb" />
@@ -187,6 +230,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="RailsProjectView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LegitStreams" />
+              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -309,16 +362,6 @@
             <PATH_ELEMENT USER_OBJECT="controllers">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="RailsProjectView">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LegitStreams" />
-              <option name="myItemType" value="org.jetbrains.plugins.ruby.rails.projectView.v2.nodes.RailsProjectNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -775,15 +818,15 @@
       <method />
     </configuration>
     <list size="9">
-      <item index="0" class="java.lang.String" itemvalue="Rake.test" />
-      <item index="1" class="java.lang.String" itemvalue="Rake.spec" />
-      <item index="2" class="java.lang.String" itemvalue="Rails.Production: LegitStreams" />
-      <item index="3" class="java.lang.String" itemvalue="Rails.Development: LegitStreams" />
-      <item index="4" class="java.lang.String" itemvalue="Rake.check_remove_duplicate_movies" />
-      <item index="5" class="java.lang.String" itemvalue="Rake.update_no_of_platforms" />
-      <item index="6" class="java.lang.String" itemvalue="Rake.remove_movies_null_platforms" />
-      <item index="7" class="java.lang.String" itemvalue="Rake.update_url_format" />
-      <item index="8" class="java.lang.String" itemvalue="Query Language Console.Default" />
+      <item index="0" class="java.lang.String" itemvalue="Rake.check_remove_duplicate_movies" />
+      <item index="1" class="java.lang.String" itemvalue="Rake.update_no_of_platforms" />
+      <item index="2" class="java.lang.String" itemvalue="Rake.remove_movies_null_platforms" />
+      <item index="3" class="java.lang.String" itemvalue="Rake.update_url_format" />
+      <item index="4" class="java.lang.String" itemvalue="Query Language Console.Default" />
+      <item index="5" class="java.lang.String" itemvalue="Rake.test" />
+      <item index="6" class="java.lang.String" itemvalue="Rake.spec" />
+      <item index="7" class="java.lang.String" itemvalue="Rails.Production: LegitStreams" />
+      <item index="8" class="java.lang.String" itemvalue="Rails.Development: LegitStreams" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -841,12 +884,12 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32996634" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24886191" sideWeight="0.32659933" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18588771" sideWeight="0.6700337" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2276176" sideWeight="0.93939394" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33333334" sideWeight="0.5333839" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.121212125" sideWeight="0.46130502" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32996634" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.060606062" sideWeight="0.46130502" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -916,6 +959,21 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="41" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/application.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="61" selection-start="276" selection-end="276" vertical-scroll-proportion="0.26771653" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/boot.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config/environment.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -941,81 +999,56 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/movies/_movies.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="31" selection-start="119" selection-end="119" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_analytics.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="465" selection-end="465" vertical-scroll-proportion="-7.8461537">
+        <state line="12" column="0" selection-start="465" selection-end="465" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="66" selection-start="1765" selection-end="1765" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/movies/_form.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="51" selection-start="71" selection-end="80" vertical-scroll-proportion="-0.65384614">
+        <state line="1" column="51" selection-start="71" selection-end="80" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/movies/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/movies/_movies.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="8" selection-start="385" selection-end="385" vertical-scroll-proportion="-1.3076923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_contact.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="4" column="31" selection-start="119" selection-end="119" vertical-scroll-proportion="-2.6153846">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/movies/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="41" selection-start="483" selection-end="483" vertical-scroll-proportion="-3.9230769">
+        <state line="2" column="0" selection-start="298" selection-end="298" vertical-scroll-proportion="-1.3076923">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_addons.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="15" selection-start="1039" selection-end="1039" vertical-scroll-proportion="-13.730769">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_signup.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="70" selection-start="1219" selection-end="1219" vertical-scroll-proportion="0.37777779">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="49" selection-start="1795" selection-end="1795" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="0" column="52" selection-start="52" selection-end="52" vertical-scroll-proportion="-0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="25" selection-start="948" selection-end="948" vertical-scroll-proportion="0.6496815">
+        <state line="86" column="15" selection-start="3326" selection-end="3326" vertical-scroll-proportion="-11.038462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_signup.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="263" column="0" selection-start="13109" selection-end="13109" vertical-scroll-proportion="9.432489">
           <folding />
         </state>
       </provider>
