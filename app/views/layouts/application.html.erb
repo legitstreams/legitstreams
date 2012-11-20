@@ -11,7 +11,7 @@
   <meta property=og:title content= '<%=content_for?(:fbtitle) ? yield(:fbtitle) : "Watch Indian Movies Online Legally - MovieKaKa" %>' />
   <meta property="og:type" content= '<%=content_for?(:fbtype) ? yield(:fbtype) : "website" %>' />
   <meta property="og:url" content='<%="#{request.protocol}#{request.host}#{request.fullpath}"%>' />
-  <meta property="og:image" content= '<%=content_for?(:fbimage) ? yield(:fbimage) : "#{request.protocol}#{request.host}/assets/moviekaka.png"%>'  />
+  <meta property="og:image" content= '<%=content_for?(:fbimage) ? yield(:fbimage) : image_path('moviekaka.png')%>'  />
   <meta property="og:description" content= '<%= content_for?(:description) ? yield(:description) : "Online Movie Streaming Guide: Find websites officially streaming latest Indian movies. Search movies by language,year,actor etc. Most complete Indian movie listings from On-Demand services on internet." %>' />
   <meta property="og:site_name" content="MovieKaKa" />
   <meta property="fb:admins" content="683730447" />

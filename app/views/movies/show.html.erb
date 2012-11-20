@@ -2,7 +2,7 @@
 <% provide(:description, 'Online listings of internet services showing '+ @movie.year.to_s + ' '+ @movie.language + ' feature film ' + @movie.title + '. ' + @movie.synopsis) %>
 <% provide(:fbtitle, @movie.title+' - Watch Online') %>
 <% provide(:fbtype, 'movie') %>
-<% provide(:fbimage, @movie.poster_url(:movie_small_poster)) %>
+<% provide(:fbimage, @movie.poster_url(:movie_poster)) %>
 
 <p id="notice"><%= notice %></p>
 
